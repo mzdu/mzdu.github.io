@@ -1,49 +1,61 @@
 ---
+title: Exemplar
+nav: projects
+subnav: exemplar-home
 layout: default
 ---
+<p>
+  This is an example of the default theme I use for my jekyll sites. This
+  theme is used for my <a href="http://tybenz.com">blog</a> and my project sites.
+</p>
 
-  <div class="row">
-    <div class="eight columns">
-      {% for post in paginator.posts limit: 3 %}
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+<p>
+  This site uses a combination of the following:
+</p>
 
-      <div class="row">
-        <div class="twelve columns">
-          {{ post.content }}
-        </div>
-      </div>
-      {% endfor %}
+<ol>
+  <li><a href="http://jekyllrb.com/">Jekyll</a>: Static site generator</li>
+  <li><a href="http://sass-lang.com">Sass</a>: CSS preprocessor</li>
+  <li><a href="http://bourbon.io">Bourbon</a>: Set of generic Sass mixins</li>
+  <li><a href="http://neat.bourbon.io">Neat</a>: Set of grid-based Sass mixins (dependent on Bourbon)</li>
+  <li>Fonts: <a href="http://www.fontsquirrel.com/fonts/bebas-neue">Bebas Neue</a>, <a href="https://github.com/adobe/source-sans-pro">Adobe Source Sans Pro</a>, <a href="https://github.com/adobe/source-code-pro">Adobe Source Code Pro</a></li>
+</ol>
 
-      <div class="pagination">
+<br />
+
+<article class="post no-border">
+    <div class="post-header">
+        <p class="date">Feb 21, 2012</p>
+        <h1>Posts</h1>
+    </div>
+    <div class="post-body">
       <p>
-        {% if paginator.previous_page %}
-          {% if paginator.previous_page == 1 %}
-            <a href="/" class="previous">Previous</a>
-          {% else %}
-            <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}" class="previous">Previous</a>
-          {% endif %}
-        {% else %}
-          <span class="previous">Previous</span>
-        {% endif %}
-        <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.next_page %}
-          <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="next">Next</a>
-        {% else %}
-          <span class="next">Next</span>
-        {% endif %}
+        This is what a post looks like. Straight forward. Date goes above the header. Content goes below the header.
       </p>
+      <p>Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
     </div>
-    </div>
-    <div class="four columns">
-      <h4>Recent Writings</h4>
-      <p>From the archives of this journal:</p>
-      <ul class="disc">
-      {% for post in site.posts offset: 3 limit: 10 %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-      <h4>About Edward Hyde</h4>
-      <p>A night owl, citizen of London, of questionable character.</p>
-      <p><a href="/feed.xml">Subscribe to Feed</a></p>
-    </div>
-  </div>
+</article>
+
+<h1>Boxes</h1>
+<div id="projects">
+  {% for page in site.pages %}
+    {% if page.box == true %}
+      {% if page.link %}
+        <a class="project" href="{{ page.link }}">
+      {% else %}
+        <a class="project" href="{{ page.url | replace: '/index.html', '' }}">
+      {% endif %}
+          <div class="project-header">
+              <h2>
+                  {{ page.title }}
+              </h2>
+          </div>
+          <div class="project-body">
+            <p>
+                {{ page.summary }}
+            </p>
+          </div>
+        </a>
+    {% endif %}
+  {% endfor %}
+</div>

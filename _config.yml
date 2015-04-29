@@ -1,13 +1,4 @@
-# Site settings
-title: "MZ Blog"
-email: daniel_pub@hotmail.com
-description: "Memory is not reliable."
-baseurl: ""
-url: "http://localhost:4000"
-
-# Build settings
-markdown: rdiscount
-rdiscount:
- extensions: [smart]
-permalink: /articles/:title
-paginate: 3
+pygments: true
+permalink: /post/:title
+exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
+paginate: 4
