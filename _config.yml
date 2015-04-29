@@ -1,8 +1,8 @@
 # Site settings
-title: "News from London"
-email: ryan@mijingo.com
-description: "A daily journal by Edward Hyde."
-baseurl: "/london-news"
+title: "MZ Blog"
+email: daniel_pub@hotmail.com
+description: "Memory is not reliable."
+baseurl: ""
 url: "http://localhost:4000"
 
 # Build settings
