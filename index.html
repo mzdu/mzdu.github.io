@@ -36,14 +36,14 @@ layout: default
     </div>
     <div class="four columns">
       <h4>Recent Writings</h4>
-      <p>From the archives of this journal:</p>
+      <p>From the archives of this blog:</p>
       <ul class="disc">
       {% for post in site.posts offset: 3 limit: 10 %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
-      <h4>About Edward Hyde</h4>
-      <p>A night owl, citizen of London, of questionable character.</p>
+      <h4>About mz</h4>
+      <p>Mingzhe Du, a PhD student who wishes to bridge the knowledge between software engineering and computer sicence.</p>
       <p><a href="/feed.xml">Subscribe to Feed</a></p>
     </div>
   </div>
