@@ -45,17 +45,117 @@
       <div class="row">
         <div class="twelve columns">
 
-		<h3>How to Start Jekyll Service</h3>
+		<h3>Build a Site with Github and Jekyll</h3>
 
       <!-- Grid Example -->
       <div class="row">
         <div class="twelve columns">
-			<blockquote><p>jekyll serve<br/>
-or
-If you will change your _config.yml file
-jekyll serve &ndash;watch</p></blockquote>
+			<ol>
+<li>Introduction
+Intro
+About Jekyll
+Steps:
+install jekyll locally
+launch the server locally
+after editing your stuff, upload it to the github</li>
+</ol>
 
-<p><a href="http://jekyllrb.com/docs/quickstart/">Jekyll site</a>.</p>
+
+<p>2.What We are building
+Example, News from London
+with Title, content, page</p>
+
+<p>click and check the detail of article, with news archive
+with RSS feedsite</p>
+
+<p>3.Installing Jekyll
+requirements:
+1.ruby
+2.ruby gems, is a packaging system for ruby.
+3. Unix, Linux, OS</p>
+
+<p>install jekyll</p>
+
+<blockquote><p>sudo gem install jekyll
+sudo gem install rdiscount     (for markdown package)</p></blockquote>
+
+<p>4.How Jekyll Works
+yaml configuration
+_config.yml</p>
+
+<p>pretty much like angularJS or any other modern front-end templates</p>
+
+<p>5.Configuring the site
+create a new project for jekyll</p>
+
+<p>create a new site</p>
+
+<blockquote><p>jekyll new myJsite            which creates a site template</p></blockquote>
+
+<p>start the local server</p>
+
+<blockquote><p>jekyll serve                       starts the template, which enables jekyll to translate the variables in static html page to the final static html page.
+running on http://127.0.0.1:4000/</p></blockquote>
+
+<p>download the code from mijingo.com/code</p>
+
+<p>File Directory
+<em>site
+</em>posts     where posts are</p>
+
+<p>_config.yml</p>
+
+<hr />
+
+<p>layout: post
+title: Henry&rsquo;s Statement
+date: September 20, 1880</p>
+
+<p>&mdash; three dashes means the yaml content</p>
+
+<p>What is a YAML file?
+Human-friendly data serialization standard
+popular with Python and Ruby on Rails project
+with
+key: value format</p>
+
+<p>yaml.org  to check specificaitons</p>
+
+<p>// Site settings
+title: &ldquo;My Site&rdquo;
+email: daniel_pub@hotmail.com
+description: &ldquo;A memory storage.&rdquo;
+baseurl: &ldquo;&rdquo; # the subpath of your site, e.g. /blog/
+url: &ldquo;http://localhost:4000&rdquo; # the base hostname &amp; protocol for your site
+github_username:  mzdu</p>
+
+<p>// Build settings
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+permalink: /articles/:title</p>
+
+<p>6.Building the templates
+_layouts</p>
+
+<p>copy default.html from resource</p>
+
+<p>learning liquid
+like google app engine</p>
+
+<p>Building the Homepage</p>
+
+<p>7.Deploying to Github Pages
+sftp
+via git
+beanstalk
+and so on</p>
+
+<p>on Github</p>
+
+<p>In order to run the complete template</p>
+
+<blockquote><p>run jekyll serve &ndash;baseurl ‘’</p></blockquote>
       
         </div>
       </div>
@@ -71,7 +171,7 @@ jekyll serve &ndash;watch</p></blockquote>
       <p>From the archives of this blog:</p>
       <ul class="disc">
               
-        <li><a href="/articles/build-a-site-with-github-and-jekyll">Build a Site with Github and Jekyll</a></li>
+        <li><a href="/articles/how-to-start-jekyll-service">How to Start Jekyll Service</a></li>
               
         <li><a href="/articles/default-layout">Defalut Layout</a></li>
               

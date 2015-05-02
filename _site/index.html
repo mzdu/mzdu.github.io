@@ -43,6 +43,120 @@
       <div class="row">
     <div class="eight columns">
       
+      <h3><a href="/articles/build-a-site-with-github-and-jekyll">Build a Site with Github and Jekyll</a></h3>
+
+      <div class="row">
+        <div class="twelve columns">
+          <ol>
+<li>Introduction
+Intro
+About Jekyll
+Steps:
+install jekyll locally
+launch the server locally
+after editing your stuff, upload it to the github</li>
+</ol>
+
+
+<p>2.What We are building
+Example, News from London
+with Title, content, page</p>
+
+<p>click and check the detail of article, with news archive
+with RSS feedsite</p>
+
+<p>3.Installing Jekyll
+requirements:
+1.ruby
+2.ruby gems, is a packaging system for ruby.
+3. Unix, Linux, OS</p>
+
+<p>install jekyll</p>
+
+<blockquote><p>sudo gem install jekyll
+sudo gem install rdiscount     (for markdown package)</p></blockquote>
+
+<p>4.How Jekyll Works
+yaml configuration
+_config.yml</p>
+
+<p>pretty much like angularJS or any other modern front-end templates</p>
+
+<p>5.Configuring the site
+create a new project for jekyll</p>
+
+<p>create a new site</p>
+
+<blockquote><p>jekyll new myJsite            which creates a site template</p></blockquote>
+
+<p>start the local server</p>
+
+<blockquote><p>jekyll serve                       starts the template, which enables jekyll to translate the variables in static html page to the final static html page.
+running on http://127.0.0.1:4000/</p></blockquote>
+
+<p>download the code from mijingo.com/code</p>
+
+<p>File Directory
+<em>site
+</em>posts     where posts are</p>
+
+<p>_config.yml</p>
+
+<hr />
+
+<p>layout: post
+title: Henry&rsquo;s Statement
+date: September 20, 1880</p>
+
+<p>&mdash; three dashes means the yaml content</p>
+
+<p>What is a YAML file?
+Human-friendly data serialization standard
+popular with Python and Ruby on Rails project
+with
+key: value format</p>
+
+<p>yaml.org  to check specificaitons</p>
+
+<p>// Site settings
+title: &ldquo;My Site&rdquo;
+email: daniel_pub@hotmail.com
+description: &ldquo;A memory storage.&rdquo;
+baseurl: &ldquo;&rdquo; # the subpath of your site, e.g. /blog/
+url: &ldquo;http://localhost:4000&rdquo; # the base hostname &amp; protocol for your site
+github_username:  mzdu</p>
+
+<p>// Build settings
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+permalink: /articles/:title</p>
+
+<p>6.Building the templates
+_layouts</p>
+
+<p>copy default.html from resource</p>
+
+<p>learning liquid
+like google app engine</p>
+
+<p>Building the Homepage</p>
+
+<p>7.Deploying to Github Pages
+sftp
+via git
+beanstalk
+and so on</p>
+
+<p>on Github</p>
+
+<p>In order to run the complete template</p>
+
+<blockquote><p>run jekyll serve &ndash;baseurl ‘’</p></blockquote>
+
+        </div>
+      </div>
+      
       <h3><a href="/articles/how-to-start-jekyll-service">How to Start Jekyll Service</a></h3>
 
       <div class="row">
@@ -66,28 +180,15 @@ jekyll serve &ndash;watch</p></blockquote>
         </div>
       </div>
       
-      <h3><a href="/articles/business-table">Business Table</a></h3>
-
-      <div class="row">
-        <div class="twelve columns">
-          <p>Next they turned to the business table. On the desk, among the neat array of papers, a large envelope was uppermost, and bore, in the doctor&rsquo;s hand, the name of Mr. Utterson. The lawyer unsealed it, and several enclosures fell to the floor. The first was a will, drawn in the same eccentric terms as the one which he had returned six months before, to serve as a testament in case of death and as a deed of gift in case of disappearance; but in place of the name of Edward Hyde, the lawyer, with indescribable amazement read the name of Gabriel John Utterson. He looked at Poole, and then back at the paper, and last of all at the dead malefactor stretched upon the carpet.</p>
-
-<blockquote><p>&ldquo;My head goes round,&rdquo; he said. &ldquo;He has been all these days in possession; he had no cause to like me; he must have raged to see himself displaced; and he has not destroyed this document.&rdquo;</p></blockquote>
-
-<p>He caught up the next paper; it was a brief note in the doctor&rsquo;s hand and dated at the top. &ldquo;O Poole!&rdquo; the lawyer cried, &ldquo;he was alive and here this day. He cannot have been disposed of in so short a space; he must be still alive, he must have fled! And then, why fled? and how? and in that case, can we venture to declare this suicide? O, we must be careful. I foresee that we may yet involve your master in some dire catastrophe.&rdquo;</p>
-
-        </div>
-      </div>
-      
 
       <div class="pagination">
       <p>
         
           <span class="previous">Previous</span>
         
-        <span class="page_number">Page: 1 of 1</span>
+        <span class="page_number">Page: 1 of 2</span>
         
-          <span class="next">Next</span>
+          <a href="/page2" class="next">Next</a>
         
       </p>
     </div>
@@ -96,6 +197,8 @@ jekyll serve &ndash;watch</p></blockquote>
       <h4>Recent Writings</h4>
       <p>From the archives of this blog:</p>
       <ul class="disc">
+      
+        <li><a href="/articles/business-table">Business Table</a></li>
       
       </ul>
       <h4>About mz</h4>
