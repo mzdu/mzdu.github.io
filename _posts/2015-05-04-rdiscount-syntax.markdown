@@ -5,15 +5,15 @@ date: May 4, 2015
 ---
 
 #### Escape ####
-Escape: /
+Escape: \
 
 
 #### Headers ####
-/# This is an H1 /#
+\# This is an H1 \#
 
-/## This is an H2 /##
+\## This is an H2 \##
 
-/### This is an H3 /###
+\### This is an H3 \###
 
 ### Emphasis ###
 Italic *
@@ -70,4 +70,8 @@ Link Only
 \-> this will be centered <-
 
 -> this will be centered <-
+
+**Reference**
+
+discount syntax <http://tedwise.com/markdown/>
 
