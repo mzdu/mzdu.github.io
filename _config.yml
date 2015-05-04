@@ -10,4 +10,4 @@ markdown: rdiscount
 rdiscount:
  extensions: [smart]
 permalink: /articles/:title
-paginate: 3
+paginate: 7
