@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Build a Site with Github and Jekyll"
+tags: github jekyll
 date: May 2, 2015
 ---
 

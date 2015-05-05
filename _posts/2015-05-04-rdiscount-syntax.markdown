@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rdicount Markdown Syntax"
+tags: rdiscount Jekyll
 date: May 4, 2015
 ---
 

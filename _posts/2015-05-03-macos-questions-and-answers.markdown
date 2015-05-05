@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MacOS Questions and Answers Collection"
+tags: sublime terminal
 date: May 3, 2015
 ---
 

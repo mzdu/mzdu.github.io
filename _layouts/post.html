@@ -1,37 +1,31 @@
 ---
 layout: default
 ---
-  <div class="row">
-    <div class="eight columns">
-      <div class="row">
-        <div class="twelve columns">
 
-		<h3>{{ page.title }}</h3>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    <div class="page">
 
-      <!-- Grid Example -->
-      <div class="row">
-        <div class="twelve columns">
-			{{ content }}      
+      <header class="page-header">
+        <h3 class="page-title">{{ page.title }}</h3>
+        <div class="post-metadata">
+          <div> <i class="fa fa-calendar"></i>
+            <time>
+              {{ page.date | date:'%A, %B %d, %Y'}}
+            </time>
+          </div>
+          <div> <i class="fa fa-tag"></i>
+              {% for tag in page.tags %}
+                <span class="label label-primary">{{tag}}</span>
+              {% endfor %}
+          </div>
         </div>
-      </div>
 
-        </div>
-      </div>
+      </header>
 
-
-    </div>
-   <div class="four columns">
-      
-      <h4>Related Writings</h4>
-      <p>From the archives of this blog:</p>
-      <ul class="disc">
-      {% for post in site.related_posts limit: 10 %}        
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-
-      <h4>About mz</h4>
-      <p>Mingzhe Du, a PhD student who wishes to bridge the knowledge between software engineering and computer sicence.</p>
-
+      <article class="page-content">
+        {{ content }}
+      </article>
     </div>
   </div>
+</div>

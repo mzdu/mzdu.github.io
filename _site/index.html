@@ -1,244 +1,269 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="  Memory is not reliable until you write it down.">
+  <title> Mingzhe Du's Blog </title>
 
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <link href='http://fonts.googleapis.com/css?family=PT+Serif:700|Open+Sans' rel='stylesheet' type='text/css'>
-  <meta charset="utf-8" />
-
-  <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
-
-  <title>mz's blog</title>
-  
-  <!-- Included CSS Files (Uncompressed) -->
-  <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  -->
-  
-  <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="/stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="/stylesheets/app.css">
-  <script src="/javascripts/modernizr.foundation.js"></script>
-
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <!-- stylesheets -->
+  <link media="all" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link media="all" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link media="all" rel="stylesheet" href="/assets/css/site.css">
 
 </head>
+
+
 <body>
 
-  <div class="row">
-    <div class="twelve columns">
-      <h2><a href="">mz's blog</a></h2>
-      <p>Memory is not reliable until you write it down.</p>
-      <hr />
+  <div class="container">
+    <header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img src="https://avatars0.githubusercontent.com/u/1903316?v=3&s=140"> <span class="name-holder">Mingzhe Du's Blog</span>
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar">
+
+        <ul id="main-menu" class="nav navbar-nav navbar-right">
+
+          
+            <li><a href="/">
+              <i class="fa fa-home"></i> Home</a>
+            </li>
+          
+            <li><a href="/about/">
+              <i class="fa fa-info-circle"></i> About Me</a>
+            </li>
+          
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-  </div>
+    <!-- /.container-fluid -->
+  </nav>
 
-      <div class="row">
-    <div class="eight columns">
-      
-      <h3><a href="/articles/rdiscount-syntax">Rdicount Markdown Syntax</a></h3>
+</header>
 
-      <div class="row">
-        <div class="twelve columns">
-          <h4>Escape</h4>
 
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    
+      <div class="blog-short">
+        <h3><a href="/2015/05/04/rdiscount-syntax.html">Rdicount Markdown Syntax</a></h3>
+		<div>
+		  <small>
+			<i class="fa fa-calendar"></i>
+			<time>
+        Monday, May 04, 2015
+			</time>
+		  </small>
+         </div>
+		<div class="margin10">
+          <small>
+            <i class="fa fa-tag"></i>
+            
+              <span class="label label-primary">rdiscount</span>
+            
+              <span class="label label-primary">Jekyll</span>
+            
+          </small>
+        </div>
+
+        <article class="excerpt"><h4 id="escape">Escape</h4>
 <p>Escape: \</p>
 
-<h4>Headers</h4>
-
-<p># This is an H1 #</p>
-
-<p>## This is an H2 ##</p>
-
-<p>### This is an H3 ###</p>
-
-<h3>Emphasis</h3>
-
-<p>Italic *</p>
-
-<p><em>Italic with star</em></p>
-
-<p>Bolded **</p>
-
-<p><strong> Bolded </strong></p>
-
-<h4>Block Quotes</h4>
-
-<p>> block quote</p>
-
-<h4>List</h4>
-
-<p>  * Item 1
-  * Item 2
-  * Item 3</p>
-
-<ul>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
-</ul>
-
-
-<h4>Code Style</h4>
-
-<p>`print &ldquo;Hello World&rdquo;`</p>
-
-<p><code>print "Hello World"</code></p>
-
-<p>use [tab]</p>
-
-<pre><code>def functionA(a, b):
-    return a + b
-</code></pre>
-
-<p>use {hightlight}+%  {endhighlight}+%</p>
-
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">codeA</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">print</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span></code></pre></div>
-
-
-<h4>Links</h4>
-
-<p>[my link text](https://mzdu.github.io)</p>
-
-<p><a href="https://mzdu.github.io">my link text</a></p>
-
-<p>Link Only</p>
-
-<p>&lt;http://mzdu.github.io> <a href="http://mzdu.github.io">http://mzdu.github.io</a></p>
-
-<h4>Images</h4>
-
-<p>![My image link text](https://avatars1.githubusercontent.com/u/1903316?v=3&amp;s=460 =150x50)</p>
-
-<p><img src="https://avatars1.githubusercontent.com/u/1903316?v=3&amp;s=460" height="50" width="150" alt="My image link text" /></p>
-
-<h4>Centering</h4>
-
-<p>-> this will be centered &lt;-</p>
-
-<p style="text-align:center;"> this will be centered</p>
-
-<p><strong>Reference</strong></p>
-
-<p>discount syntax <a href="http://tedwise.com/markdown/">http://tedwise.com/markdown/</a></p>
-
-        </div>
+</article>
+        <a class="pull-right marginBottom10" href="/2015/05/04/rdiscount-syntax.html">Read More</a>
       </div>
-      
-      <h3><a href="/articles/macos-questions-and-answers">MacOS Questions and Answers Collection</a></h3>
+    
+      <div class="blog-short">
+        <h3><a href="/2015/05/03/macos-questions-and-answers.html">MacOS Questions and Answers Collection</a></h3>
+		<div>
+		  <small>
+			<i class="fa fa-calendar"></i>
+			<time>
+        Sunday, May 03, 2015
+			</time>
+		  </small>
+         </div>
+		<div class="margin10">
+          <small>
+            <i class="fa fa-tag"></i>
+            
+              <span class="label label-primary">sublime</span>
+            
+              <span class="label label-primary">terminal</span>
+            
+          </small>
+        </div>
 
-      <div class="row">
-        <div class="twelve columns">
-          <ol>
-<li>Permissions: Why do I always have to type &lsquo;sudo&rsquo; before every command?</li>
+        <article class="excerpt"><ol>
+  <li>Permissions: Why do I always have to type ‘sudo’ before every command?</li>
 </ol>
 
+</article>
+        <a class="pull-right marginBottom10" href="/2015/05/03/macos-questions-and-answers.html">Read More</a>
+      </div>
+    
+      <div class="blog-short">
+        <h3><a href="/2015/05/02/google-app-engine-sdk-path.html">Google App Engine SDK Path</a></h3>
+		<div>
+		  <small>
+			<i class="fa fa-calendar"></i>
+			<time>
+        Saturday, May 02, 2015
+			</time>
+		  </small>
+         </div>
+		<div class="margin10">
+          <small>
+            <i class="fa fa-tag"></i>
+            
+              <span class="label label-primary">google-app-engine</span>
+            
+              <span class="label label-primary">sdk</span>
+            
+              <span class="label label-primary">path</span>
+            
+          </small>
+        </div>
 
-<p>Use sudo su or sudo -i to get an interactive root shell.</p>
+        <article class="excerpt"><p>Where is the Google App Engine SDK path on OSX?</p>
 
-<ol>
-<li>Launch Sublime Text 2 from the Mac OS X Terminal</li>
+</article>
+        <a class="pull-right marginBottom10" href="/2015/05/02/google-app-engine-sdk-path.html">Read More</a>
+      </div>
+    
+      <div class="blog-short">
+        <h3><a href="/2015/05/02/build-a-site-with-github-and-jekyll.html">Build a Site with Github and Jekyll</a></h3>
+		<div>
+		  <small>
+			<i class="fa fa-calendar"></i>
+			<time>
+        Saturday, May 02, 2015
+			</time>
+		  </small>
+         </div>
+		<div class="margin10">
+          <small>
+            <i class="fa fa-tag"></i>
+            
+              <span class="label label-primary">github</span>
+            
+              <span class="label label-primary">jekyll</span>
+            
+          </small>
+        </div>
+
+        <article class="excerpt"><ol>
+  <li>Introduction<br />
+Intro<br />
+About Jekyll<br />
+Steps:<br />
+install jekyll locally<br />
+launch the server locally<br />
+after editing your stuff, upload it to the github</li>
 </ol>
 
-
-<p>https://gist.github.com/artero/1236170</p>
-
-        </div>
+</article>
+        <a class="pull-right marginBottom10" href="/2015/05/02/build-a-site-with-github-and-jekyll.html">Read More</a>
       </div>
-      
-      <h3><a href="/articles/google-app-engine-sdk-path">Google App Engine SDK Path</a></h3>
-
-      <div class="row">
-        <div class="twelve columns">
-          <p>Where is the Google App Engine SDK path on OSX?</p>
-
-<p>Answer:</p>
-
-<p>/usr/local/google_appengine</p>
-
-<p>that&rsquo;s a symlink that links to the SDK.</p>
-
+    
+      <div class="blog-short">
+        <h3><a href="/2015/05/01/how-to-start-jekyll-service.html">How to Start Jekyll Service</a></h3>
+		<div>
+		  <small>
+			<i class="fa fa-calendar"></i>
+			<time>
+        Friday, May 01, 2015
+			</time>
+		  </small>
+         </div>
+		<div class="margin10">
+          <small>
+            <i class="fa fa-tag"></i>
+            
+              <span class="label label-primary">jekyll</span>
+            
+          </small>
         </div>
-      </div>
-      
 
-      <div class="pagination">
-      <p>
-        
-          <span class="previous">Previous</span>
-        
-        <span class="page_number">Page: 1 of 1</span>
-        
-          <span class="next">Next</span>
-        
-      </p>
-    </div>
-    </div>
-    <div class="four columns">
-      <h4>Recent Writings</h4>
-      <p>From the archives of this blog:</p>
-      <ul class="disc">
-      
-        <li><a href="/articles/build-a-site-with-github-and-jekyll">Build a Site with Github and Jekyll</a></li>
-      
-        <li><a href="/articles/how-to-start-jekyll-service">How to Start Jekyll Service</a></li>
-      
-        <li><a href="/articles/default-layout">Defalut Layout</a></li>
-      
-        <li><a href="/articles/business-table">Business Table</a></li>
-      
-      </ul>
-      <h4>About mz</h4>
-      <p>Mingzhe Du, a PhD student who wishes to bridge the knowledge between software engineering and computer sicence.</p>
-      <p><a href="/feed.xml">Subscribe to Feed</a></p>
-    </div>
+        <article class="excerpt"><blockquote>
+  <p>jekyll serve  <br />
+or<br />
+If you will change your _config.yml file<br />
+jekyll serve –watch</p>
+</blockquote>
+
+</article>
+        <a class="pull-right marginBottom10" href="/2015/05/01/how-to-start-jekyll-service.html">Read More</a>
+      </div>
+    
+      <div class="blog-short">
+        <h3><a href="/2015/04/29/default-layout.html">Defalut Layout</a></h3>
+		<div>
+		  <small>
+			<i class="fa fa-calendar"></i>
+			<time>
+        Wednesday, April 29, 2015
+			</time>
+		  </small>
+         </div>
+		<div class="margin10">
+          <small>
+            <i class="fa fa-tag"></i>
+            
+              <span class="label label-primary">none</span>
+            
+          </small>
+        </div>
+
+        <article class="excerpt"><p>This is a post with default layout.</p>
+
+</article>
+        <a class="pull-right marginBottom10" href="/2015/04/29/default-layout.html">Read More</a>
+      </div>
+    
   </div>
+</div>
 
+
+  </div>
   
-  
-  <!-- Included JS Files (Uncompressed) -->
-  <!--
-  
-  <script src="javascripts/modernizr.foundation.js"></script>
-  
-  <script src="javascripts/jquery.js"></script>
-  
-  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
-  
-  <script src="javascripts/jquery.foundation.reveal.js"></script>
-  
-  <script src="javascripts/jquery.foundation.orbit.js"></script>
-  
-  <script src="javascripts/jquery.foundation.navigation.js"></script>
-  
-  <script src="javascripts/jquery.foundation.buttons.js"></script>
-  
-  <script src="javascripts/jquery.foundation.tabs.js"></script>
-  
-  <script src="javascripts/jquery.foundation.forms.js"></script>
-  
-  <script src="javascripts/jquery.foundation.tooltips.js"></script>
-  
-  <script src="javascripts/jquery.foundation.accordion.js"></script>
-  
-  <script src="javascripts/jquery.placeholder.js"></script>
-  
-  <script src="javascripts/jquery.foundation.alerts.js"></script>
-  
-  -->
-  
-  <!-- Included JS Files (Compressed) -->
-  <script src="/javascripts/foundation.min.js"></script>
-  
-  <!-- Initialize JS Plugins -->
-  <script src="/javascripts/app.js"></script>
+
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-offset-3 col-lg-6">
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <small>&copy; Mingzhe Du, 2015</small>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!--<script src="/assets/js/prism.js"></script> -->
+  <script src="/assets/js/site.js"></script>
+
 </body>
+
 </html>

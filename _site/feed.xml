@@ -1,102 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mz&#39;s blog</title>
+    <title>Mingzhe Du&#39;s Blog</title>
     <description>Memory is not reliable until you write it down.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 May 2015 12:12:53 -0400</pubDate>
-    <lastBuildDate>Mon, 04 May 2015 12:12:53 -0400</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 05 May 2015 15:51:43 -0400</pubDate>
+    <lastBuildDate>Tue, 05 May 2015 15:51:43 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Rdicount Markdown Syntax</title>
-        <description>&lt;h4&gt;Escape&lt;/h4&gt;
-
+        <description>&lt;h4 id=&quot;escape&quot;&gt;Escape&lt;/h4&gt;
 &lt;p&gt;Escape: \&lt;/p&gt;
 
-&lt;h4&gt;Headers&lt;/h4&gt;
-
+&lt;h4 id=&quot;headers&quot;&gt;Headers&lt;/h4&gt;
 &lt;p&gt;# This is an H1 #&lt;/p&gt;
 
 &lt;p&gt;## This is an H2 ##&lt;/p&gt;
 
 &lt;p&gt;### This is an H3 ###&lt;/p&gt;
 
-&lt;h3&gt;Emphasis&lt;/h3&gt;
-
+&lt;h3 id=&quot;emphasis&quot;&gt;Emphasis&lt;/h3&gt;
 &lt;p&gt;Italic *&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Italic with star&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Bolded **&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt; Bolded &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;** Bolded **&lt;/p&gt;
 
-&lt;h4&gt;Block Quotes&lt;/h4&gt;
+&lt;h4 id=&quot;block-quotes&quot;&gt;Block Quotes&lt;/h4&gt;
+&lt;p&gt;&amp;gt; block quote&lt;/p&gt;
 
-&lt;p&gt;&gt; block quote&lt;/p&gt;
-
-&lt;h4&gt;List&lt;/h4&gt;
-
-&lt;p&gt;  * Item 1
-  * Item 2
+&lt;h4 id=&quot;list&quot;&gt;List&lt;/h4&gt;
+&lt;p&gt;* Item 1&lt;br /&gt;
+  * Item 2&lt;br /&gt;
   * Item 3&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h4&gt;Code Style&lt;/h4&gt;
-
-&lt;p&gt;`print &amp;ldquo;Hello World&amp;rdquo;`&lt;/p&gt;
+&lt;h4 id=&quot;code-style&quot;&gt;Code Style&lt;/h4&gt;
+&lt;p&gt;`print “Hello World”`&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;print &quot;Hello World&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;use [tab]&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;def functionA(a, b):
-    return a + b
+	return a + b use {hightlight}+%  {endhighlight}+%		
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;use {hightlight}+%  {endhighlight}+%&lt;/p&gt;
-
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;codeA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;h4&gt;Links&lt;/h4&gt;
-
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
 &lt;p&gt;[my link text](https://mzdu.github.io)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://mzdu.github.io&quot;&gt;my link text&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Link Only&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;http://mzdu.github.io&gt; &lt;a href=&quot;http://mzdu.github.io&quot;&gt;http://mzdu.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://mzdu.github.io\&quot;&gt;http://mzdu.github.io\&lt;/a&gt; &lt;a href=&quot;http://mzdu.github.io&quot;&gt;http://mzdu.github.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4&gt;Images&lt;/h4&gt;
-
+&lt;h4 id=&quot;images&quot;&gt;Images&lt;/h4&gt;
 &lt;p&gt;![My image link text](https://avatars1.githubusercontent.com/u/1903316?v=3&amp;amp;s=460 =150x50)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/1903316?v=3&amp;amp;s=460&quot; height=&quot;50&quot; width=&quot;150&quot; alt=&quot;My image link text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/1903316?v=3&amp;amp;s=460 =150x50&quot; alt=&quot;My image link text&quot; /&gt;&lt;/p&gt;
 
-&lt;h4&gt;Centering&lt;/h4&gt;
+&lt;h4 id=&quot;centering&quot;&gt;Centering&lt;/h4&gt;
+&lt;p&gt;-&amp;gt; this will be centered &amp;lt;-&lt;/p&gt;
 
-&lt;p&gt;-&gt; this will be centered &amp;lt;-&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center;&quot;&gt; this will be centered&lt;/p&gt;
+&lt;p&gt;-&amp;gt; this will be centered &amp;lt;-&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;discount syntax &lt;a href=&quot;http://tedwise.com/markdown/&quot;&gt;http://tedwise.com/markdown/&lt;/a&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Mon, 04 May 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/rdiscount-syntax</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/rdiscount-syntax</guid>
+        <link>/2015/05/04/rdiscount-syntax.html</link>
+        <guid isPermaLink="true">/2015/05/04/rdiscount-syntax.html</guid>
+        
+        <category>rdiscount</category>
+        
+        <category>Jekyll</category>
         
         
       </item>
@@ -104,22 +96,24 @@
       <item>
         <title>MacOS Questions and Answers Collection</title>
         <description>&lt;ol&gt;
-&lt;li&gt;Permissions: Why do I always have to type &amp;lsquo;sudo&amp;rsquo; before every command?&lt;/li&gt;
+  &lt;li&gt;Permissions: Why do I always have to type ‘sudo’ before every command?&lt;/li&gt;
 &lt;/ol&gt;
-
 
 &lt;p&gt;Use sudo su or sudo -i to get an interactive root shell.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Launch Sublime Text 2 from the Mac OS X Terminal&lt;/li&gt;
+  &lt;li&gt;Launch Sublime Text 2 from the Mac OS X Terminal&lt;/li&gt;
 &lt;/ol&gt;
-
 
 &lt;p&gt;https://gist.github.com/artero/1236170&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 May 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/macos-questions-and-answers</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/macos-questions-and-answers</guid>
+        <link>/2015/05/03/macos-questions-and-answers.html</link>
+        <guid isPermaLink="true">/2015/05/03/macos-questions-and-answers.html</guid>
+        
+        <category>sublime</category>
+        
+        <category>terminal</category>
         
         
       </item>
@@ -132,11 +126,17 @@
 
 &lt;p&gt;/usr/local/google_appengine&lt;/p&gt;
 
-&lt;p&gt;that&amp;rsquo;s a symlink that links to the SDK.&lt;/p&gt;
+&lt;p&gt;that’s a symlink that links to the SDK.&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 May 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/google-app-engine-sdk-path</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/google-app-engine-sdk-path</guid>
+        <link>/2015/05/02/google-app-engine-sdk-path.html</link>
+        <guid isPermaLink="true">/2015/05/02/google-app-engine-sdk-path.html</guid>
+        
+        <category>google-app-engine</category>
+        
+        <category>sdk</category>
+        
+        <category>path</category>
         
         
       </item>
@@ -144,131 +144,134 @@
       <item>
         <title>Build a Site with Github and Jekyll</title>
         <description>&lt;ol&gt;
-&lt;li&gt;Introduction
-Intro
-About Jekyll
-Steps:
-install jekyll locally
-launch the server locally
+  &lt;li&gt;Introduction&lt;br /&gt;
+Intro&lt;br /&gt;
+About Jekyll&lt;br /&gt;
+Steps:&lt;br /&gt;
+install jekyll locally&lt;br /&gt;
+launch the server locally&lt;br /&gt;
 after editing your stuff, upload it to the github&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;p&gt;2.What We are building
-Example, News from London
+&lt;p&gt;2.What We are building&lt;br /&gt;
+Example, News from London&lt;br /&gt;
 with Title, content, page&lt;/p&gt;
 
-&lt;p&gt;click and check the detail of article, with news archive
+&lt;p&gt;click and check the detail of article, with news archive&lt;br /&gt;
 with RSS feedsite&lt;/p&gt;
 
-&lt;p&gt;3.Installing Jekyll
-requirements:
-1.ruby
-2.ruby gems, is a packaging system for ruby.
+&lt;p&gt;3.Installing Jekyll&lt;br /&gt;
+requirements:&lt;br /&gt;
+1.ruby&lt;br /&gt;
+2.ruby gems, is a packaging system for ruby.&lt;br /&gt;
 3. Unix, Linux, OS&lt;/p&gt;
 
-&lt;p&gt;install jekyll&lt;/p&gt;
+&lt;p&gt;install jekyll &lt;br /&gt;
+&amp;gt; sudo gem install jekyll&lt;br /&gt;
+&amp;gt; sudo gem install rdiscount     (for markdown package)&lt;/p&gt;
 
-&lt;blockquote&gt;&lt;p&gt;sudo gem install jekyll
-sudo gem install rdiscount     (for markdown package)&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;4.How Jekyll Works
-yaml configuration
+&lt;p&gt;4.How Jekyll Works&lt;br /&gt;
+yaml configuration&lt;br /&gt;
 _config.yml&lt;/p&gt;
 
 &lt;p&gt;pretty much like angularJS or any other modern front-end templates&lt;/p&gt;
 
-&lt;p&gt;5.Configuring the site
+&lt;p&gt;5.Configuring the site&lt;br /&gt;
 create a new project for jekyll&lt;/p&gt;
 
-&lt;p&gt;create a new site&lt;/p&gt;
+&lt;p&gt;create a new site&lt;br /&gt;
+&amp;gt; jekyll new myJsite            which creates a site template&lt;/p&gt;
 
-&lt;blockquote&gt;&lt;p&gt;jekyll new myJsite            which creates a site template&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;start the local server&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;jekyll serve                       starts the template, which enables jekyll to translate the variables in static html page to the final static html page.
-running on http://127.0.0.1:4000/&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;start the local server&lt;br /&gt;
+&amp;gt; jekyll serve                       starts the template, which enables jekyll to translate the variables in static html page to the final static html page.&lt;br /&gt;
+running on http://127.0.0.1:4000/&lt;/p&gt;
 
 &lt;p&gt;download the code from mijingo.com/code&lt;/p&gt;
 
-&lt;p&gt;File Directory
-&lt;em&gt;site
-&lt;/em&gt;posts     where posts are&lt;/p&gt;
+&lt;p&gt;File Directory&lt;br /&gt;
+_site&lt;br /&gt;
+_posts     where posts are&lt;/p&gt;
 
 &lt;p&gt;_config.yml&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;=================&lt;/p&gt;
 
-&lt;p&gt;layout: post
-title: Henry&amp;rsquo;s Statement
+&lt;p&gt;layout: post&lt;br /&gt;
+title: Henry’s Statement&lt;br /&gt;
 date: September 20, 1880&lt;/p&gt;
 
-&lt;p&gt;&amp;mdash; three dashes means the yaml content&lt;/p&gt;
+&lt;p&gt;— three dashes means the yaml content&lt;/p&gt;
 
-&lt;p&gt;What is a YAML file?
-Human-friendly data serialization standard
-popular with Python and Ruby on Rails project
-with
+&lt;p&gt;What is a YAML file?&lt;br /&gt;
+Human-friendly data serialization standard&lt;br /&gt;
+popular with Python and Ruby on Rails project&lt;br /&gt;
+with &lt;br /&gt;
 key: value format&lt;/p&gt;
 
 &lt;p&gt;yaml.org  to check specificaitons&lt;/p&gt;
 
-&lt;p&gt;// Site settings
-title: &amp;ldquo;My Site&amp;rdquo;
-email: daniel_pub@hotmail.com
-description: &amp;ldquo;A memory storage.&amp;rdquo;
-baseurl: &amp;ldquo;&amp;rdquo; # the subpath of your site, e.g. /blog/
-url: &amp;ldquo;http://localhost:4000&amp;rdquo; # the base hostname &amp;amp; protocol for your site
+&lt;p&gt;// Site settings&lt;br /&gt;
+title: “My Site”&lt;br /&gt;
+email: daniel_pub@hotmail.com&lt;br /&gt;
+description: “A memory storage.”&lt;br /&gt;
+baseurl: “” # the subpath of your site, e.g. /blog/&lt;br /&gt;
+url: “http://localhost:4000” # the base hostname &amp;amp; protocol for your site&lt;br /&gt;
 github_username:  mzdu&lt;/p&gt;
 
-&lt;p&gt;// Build settings
-markdown: rdiscount
-rdiscount:
-    extensions: [smart]
+&lt;p&gt;// Build settings&lt;br /&gt;
+markdown: rdiscount&lt;br /&gt;
+rdiscount: &lt;br /&gt;
+	extensions: [smart]&lt;br /&gt;
 permalink: /articles/:title&lt;/p&gt;
 
-&lt;p&gt;6.Building the templates
+&lt;p&gt;6.Building the templates&lt;br /&gt;
 _layouts&lt;/p&gt;
 
 &lt;p&gt;copy default.html from resource&lt;/p&gt;
 
-&lt;p&gt;learning liquid
+&lt;p&gt;learning liquid&lt;br /&gt;
 like google app engine&lt;/p&gt;
 
 &lt;p&gt;Building the Homepage&lt;/p&gt;
 
-&lt;p&gt;7.Deploying to Github Pages
-sftp
-via git
-beanstalk
+&lt;p&gt;7.Deploying to Github Pages&lt;br /&gt;
+sftp&lt;br /&gt;
+via git&lt;br /&gt;
+beanstalk&lt;br /&gt;
 and so on&lt;/p&gt;
 
 &lt;p&gt;on Github&lt;/p&gt;
 
-&lt;p&gt;In order to run the complete template&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;run jekyll serve &amp;ndash;baseurl ‘’&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;In order to run the complete template&lt;br /&gt;
+&amp;gt; run jekyll serve –baseurl ‘’&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 May 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/build-a-site-with-github-and-jekyll</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/build-a-site-with-github-and-jekyll</guid>
+        <link>/2015/05/02/build-a-site-with-github-and-jekyll.html</link>
+        <guid isPermaLink="true">/2015/05/02/build-a-site-with-github-and-jekyll.html</guid>
+        
+        <category>github</category>
+        
+        <category>jekyll</category>
         
         
       </item>
     
       <item>
         <title>How to Start Jekyll Service</title>
-        <description>&lt;blockquote&gt;&lt;p&gt;jekyll serve&lt;br/&gt;
-or
-If you will change your _config.yml file
-jekyll serve &amp;ndash;watch&lt;/p&gt;&lt;/blockquote&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;jekyll serve  &lt;br /&gt;
+or&lt;br /&gt;
+If you will change your _config.yml file&lt;br /&gt;
+jekyll serve –watch&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/quickstart/&quot;&gt;Jekyll site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/quickstart/&quot;&gt;Jekyll site&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 May 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/how-to-start-jekyll-service</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/how-to-start-jekyll-service</guid>
+        <link>/2015/05/01/how-to-start-jekyll-service.html</link>
+        <guid isPermaLink="true">/2015/05/01/how-to-start-jekyll-service.html</guid>
+        
+        <category>jekyll</category>
         
         
       </item>
@@ -276,25 +279,13 @@ jekyll serve &amp;ndash;watch&lt;/p&gt;&lt;/blockquote&gt;
       <item>
         <title>Defalut Layout</title>
         <description>&lt;p&gt;This is a post with default layout.&lt;/p&gt;
+
 </description>
         <pubDate>Wed, 29 Apr 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/default-layout</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/default-layout</guid>
+        <link>/2015/04/29/default-layout.html</link>
+        <guid isPermaLink="true">/2015/04/29/default-layout.html</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>Business Table</title>
-        <description>&lt;p&gt;Next they turned to the business table. On the desk, among the neat array of papers, a large envelope was uppermost, and bore, in the doctor&amp;rsquo;s hand, the name of Mr. Utterson. The lawyer unsealed it, and several enclosures fell to the floor. The first was a will, drawn in the same eccentric terms as the one which he had returned six months before, to serve as a testament in case of death and as a deed of gift in case of disappearance; but in place of the name of Edward Hyde, the lawyer, with indescribable amazement read the name of Gabriel John Utterson. He looked at Poole, and then back at the paper, and last of all at the dead malefactor stretched upon the carpet.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;&amp;ldquo;My head goes round,&amp;rdquo; he said. &amp;ldquo;He has been all these days in possession; he had no cause to like me; he must have raged to see himself displaced; and he has not destroyed this document.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;He caught up the next paper; it was a brief note in the doctor&amp;rsquo;s hand and dated at the top. &amp;ldquo;O Poole!&amp;rdquo; the lawyer cried, &amp;ldquo;he was alive and here this day. He cannot have been disposed of in so short a space; he must be still alive, he must have fled! And then, why fled? and how? and in that case, can we venture to declare this suicide? O, we must be careful. I foresee that we may yet involve your master in some dire catastrophe.&amp;rdquo;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Sep 1880 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/articles/business-table</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/business-table</guid>
+        <category>none</category>
         
         
       </item>

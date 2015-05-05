@@ -1,13 +1,18 @@
 # Site settings
-title: "mz's blog"
+title: Mingzhe Du's Blog
 email: daniel_pub@hotmail.com
 description: "Memory is not reliable until you write it down."
-baseurl: ""
-url: "http://localhost:4000"
+logo_location: "https://avatars0.githubusercontent.com/u/1903316?v=3&s=140"
+
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
 
 # Build settings
-markdown: rdiscount
-rdiscount:
- extensions: [smart]
-permalink: /articles/:title
-paginate: 7
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: pygments
+
+#Other Global Configuration
+exclude: ['README.md']

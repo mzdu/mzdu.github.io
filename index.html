@@ -1,49 +1,32 @@
 ---
 layout: default
+date: 2014-10-19 23:51
 ---
-
-  <div class="row">
-    <div class="eight columns">
-      {% for post in paginator.posts limit: 3 %}
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-
-      <div class="row">
-        <div class="twelve columns">
-          {{ post.content }}
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    {% for post in site.posts %}
+      <div class="blog-short">
+        <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+		<div>
+		  <small>
+			<i class="fa fa-calendar"></i>
+			<time>
+        {{ post.date | date:'%A, %B %d, %Y'}}
+			</time>
+		  </small>
+         </div>
+		<div class="margin10">
+          <small>
+            <i class="fa fa-tag"></i>
+            {% for tag in post.tags %}
+              <span class="label label-primary">{{tag}}</span>
+            {% endfor %}
+          </small>
         </div>
-      </div>
-      {% endfor %}
 
-      <div class="pagination">
-      <p>
-        {% if paginator.previous_page %}
-          {% if paginator.previous_page == 1 %}
-            <a href="/" class="previous">Previous</a>
-          {% else %}
-            <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}" class="previous">Previous</a>
-          {% endif %}
-        {% else %}
-          <span class="previous">Previous</span>
-        {% endif %}
-        <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.next_page %}
-          <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="next">Next</a>
-        {% else %}
-          <span class="next">Next</span>
-        {% endif %}
-      </p>
-    </div>
-    </div>
-    <div class="four columns">
-      <h4>Recent Writings</h4>
-      <p>From the archives of this blog:</p>
-      <ul class="disc">
-      {% for post in site.posts offset: 3 limit: 10 %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-      <h4>About mz</h4>
-      <p>Mingzhe Du, a PhD student who wishes to bridge the knowledge between software engineering and computer sicence.</p>
-      <p><a href="/feed.xml">Subscribe to Feed</a></p>
-    </div>
+        <article class="excerpt">{{post.excerpt}}</article>
+        <a class="pull-right marginBottom10" href="{{post.url | prepend: site.baseurl }}">Read More</a>
+      </div>
+    {% endfor %}
   </div>
+</div>
