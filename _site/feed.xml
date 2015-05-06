@@ -5,9 +5,24 @@
     <description>Memory is not reliable until you write it down.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 May 2015 15:51:43 -0400</pubDate>
-    <lastBuildDate>Tue, 05 May 2015 15:51:43 -0400</lastBuildDate>
+    <pubDate>Tue, 05 May 2015 21:07:09 -0400</pubDate>
+    <lastBuildDate>Tue, 05 May 2015 21:07:09 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Fun Fun </title>
+        <description>&lt;p&gt;A simple test&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 May 2015 00:00:00 -0400</pubDate>
+        <link>/2015/05/05/funfun.html</link>
+        <guid isPermaLink="true">/2015/05/05/funfun.html</guid>
+        
+        <category>markdown</category>
+        
+        <category>jekyll</category>
+        
+        
+      </item>
     
       <item>
         <title>Rdicount Markdown Syntax</title>
