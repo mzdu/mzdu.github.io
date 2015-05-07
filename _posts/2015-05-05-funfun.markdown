@@ -1,7 +1,0 @@
----
-layout: post
-title: "Fun Fun "
-tags: markdown jekyll
-date: May 5, 2015
----
-A simple test

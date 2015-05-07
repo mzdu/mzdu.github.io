@@ -5,97 +5,333 @@
     <description>Memory is not reliable until you write it down.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 May 2015 21:07:09 -0400</pubDate>
-    <lastBuildDate>Tue, 05 May 2015 21:07:09 -0400</lastBuildDate>
+    <pubDate>Thu, 07 May 2015 19:42:41 -0400</pubDate>
+    <lastBuildDate>Thu, 07 May 2015 19:42:41 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Fun Fun </title>
-        <description>&lt;p&gt;A simple test&lt;/p&gt;
+        <title>Eclipse Guided Tour</title>
+        <description>&lt;h4&gt;Getting Started&lt;/h4&gt;
+
+&lt;p&gt;da&lt;/p&gt;
+
+&lt;h4&gt;Getting Started&lt;/h4&gt;
+
+&lt;p&gt;dd&lt;/p&gt;
+
+&lt;h4&gt;Getting Started&lt;/h4&gt;
+
+&lt;p&gt;da&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;print &quot;Hello Kitty&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def hello():
+    print &quot;hello world&quot;
+
+    a, b = 0, 0
+    if a == b:
+        return True
+
+    else:
+        return False
+&lt;/code&gt;&lt;/pre&gt;
 </description>
-        <pubDate>Tue, 05 May 2015 00:00:00 -0400</pubDate>
-        <link>/2015/05/05/funfun.html</link>
-        <guid isPermaLink="true">/2015/05/05/funfun.html</guid>
+        <pubDate>Thu, 07 May 2015 00:00:00 -0400</pubDate>
+        <link>/2015/05/07/eclipse-guided-tour.html</link>
+        <guid isPermaLink="true">/2015/05/07/eclipse-guided-tour.html</guid>
         
-        <category>markdown</category>
+        <category>eclipse</category>
         
-        <category>jekyll</category>
+        <category>guide</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Developers Guild Meetup</title>
+        <description>&lt;h4&gt;Introdution of Speakers&lt;/h4&gt;
+
+&lt;p&gt;Soft Skills:
+Don&#39; t go with COBOL, DB2, .Net Platform&lt;/p&gt;
+
+&lt;p&gt;Ruby, Python, Open source tools&lt;/p&gt;
+
+&lt;p&gt;Data Scientist:&lt;/p&gt;
+
+&lt;h4&gt;MVC&lt;/h4&gt;
+
+&lt;p&gt;4 - 5 years experience
+Single Page Technology&lt;/p&gt;
+
+&lt;p&gt;MVC + RESTful service&lt;/p&gt;
+
+&lt;p&gt;Working on the latest stuff&lt;/p&gt;
+
+&lt;p&gt;I read this book, I watch that tutorial. Learning by yourself is more impressive.
+&amp;ldquo;I want to know what you think.&amp;rdquo;
+&amp;ldquo;How to solve a problem, saving your time on learning the syntax itself.&amp;rdquo;&lt;/p&gt;
+
+&lt;h4&gt;PluralSight&lt;/h4&gt;
+
+&lt;p&gt;recommended for visual learner&lt;/p&gt;
+
+&lt;p&gt;http://it-ebooks.info/tag/programming/&lt;/p&gt;
+
+&lt;p&gt;actively study&lt;/p&gt;
+
+&lt;h4&gt;Your Roles in Resume&lt;/h4&gt;
+
+&lt;p&gt;Project based:
+For each bullet, list all tech tracks and frameworks that you used.&lt;/p&gt;
+
+&lt;h3&gt;Thank you letter &amp;mdash;- is very important. Follow-up. Repeat your name periodically.&lt;/h3&gt;
+
+&lt;p&gt;What is your personal brand?&lt;/p&gt;
+
+&lt;p&gt;Facebook: personal, your email, google, don&amp;rsquo;t complain on web which will affect your reputation in this virtual world.&lt;/p&gt;
+
+&lt;p&gt;Personality! Show your personality, be nice during the interview and phone call.&lt;/p&gt;
+
+&lt;p&gt;Check out your connector&amp;rsquo;s background. Know the company you are talking with, what they do, how would I fit in the comany.
+It is two way straight.&lt;/p&gt;
+
+&lt;p&gt;HR: What do you have questions about the position? ASK!&lt;/p&gt;
+
+&lt;p&gt;you need to prepare some stuff about the company and the position. The more you interact with us, the more you will be more fit.&lt;/p&gt;
+
+&lt;p&gt;What is this position? What is the typical day like? Are you able to adapt in this environment? for mutual training&lt;/p&gt;
+
+&lt;p&gt;Am I gonna have a mentor? Is there any training? on-call availability? Working atmosphere? expectation?&lt;/p&gt;
+
+&lt;p&gt;What kind of a learner are you? pair programming, book, video. Know the interesting thing you would like to work on.
+Web development, back-end,&lt;/p&gt;
+
+&lt;p&gt;Agile Process, small team,&lt;/p&gt;
+
+&lt;p&gt;keep putting yourself in front of them.&lt;/p&gt;
+
+&lt;p&gt;How to close the interview? I really like your company, I really like this job, what is the next step?&lt;/p&gt;
+
+&lt;h4&gt;Being exciting!!!!! Curious! Ambitious!&lt;/h4&gt;
+
+&lt;p&gt;Mobile app programming is the trend. Must know what apple is looking for. There are a lot of rules need to be follow.
+Deliver the MVP to store first, then add more features later.&lt;/p&gt;
+
+&lt;h4&gt;podcast, listen&lt;/h4&gt;
+
+&lt;p&gt;Struggle with Social Interacting. Go outside, do not stay in your dorm. You have to get up, take a shower, dress up.&lt;/p&gt;
+
+&lt;p&gt;The best way is two people standing side by side in front of a white board.&lt;/p&gt;
+
+&lt;h4&gt;Don&amp;rsquo;t just be a consumer, also be a contributor.&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;print &quot;Hello Kitty&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def hello():
+    print &quot;hello world&quot;
+
+    a, b = 0, 0
+    if a == b:
+        return True
+
+    else:
+        return False
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Thu, 07 May 2015 00:00:00 -0400</pubDate>
+        <link>/2015/05/07/developers-guild.html</link>
+        <guid isPermaLink="true">/2015/05/07/developers-guild.html</guid>
+        
+        <category>guild</category>
+        
+        <category>meetup</category>
+        
+        <category>recruiting</category>
+        
+        <category>job-searching</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ruby on Rails P1</title>
+        <description>&lt;h4&gt;Getting started&lt;/h4&gt;
+
+&lt;p&gt;Route = URL + http verb (GET, POST, PUT/PATCH, DELETE)&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;GET = find&lt;/p&gt;
+
+&lt;p&gt;POST = add&lt;/p&gt;
+
+&lt;p&gt;PUT/PATCH = update&lt;/p&gt;
+
+&lt;p&gt;DELETE = delete&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;User1 → Router → CONTROLLER → View → Back to User1&lt;/p&gt;
+
+&lt;h4&gt;Starting a Rails Project&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;check your ruby version&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;ruby -v&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;check your rails version&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;rails -v&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;install rails&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;gem install rails&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;start new project&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;rails new projectname&lt;/p&gt;&lt;/blockquote&gt;
+
+ start rails server
+
+&lt;blockquote&gt;&lt;p&gt;rails server or rails s&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;The default url is localhost: 3000, add git tracking for local repo&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;git init  &lt;br/&gt;
+git add .&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Generate controller for rails&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;rails generate controller home index&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;The files generated are saved under
+/app/views/home&lt;/p&gt;
+
+&lt;p&gt;index.html.erb &lt;----&gt; /config/locales/routes.rb&lt;/p&gt;
+
+&lt;p&gt;localhost: 3000/home/index   ←→   get ‘home/index’&lt;/p&gt;
+
+&lt;p&gt;set home/index as root and create about page
+routes.rb
+Rails.application.routes.draw do&lt;/p&gt;
+
+&lt;p&gt;  root &amp;lsquo;home#index&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;  get &amp;lsquo;/about&amp;rsquo; =&gt; &amp;lsquo;home#about&amp;rsquo;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;set home_controller.rb
+def about
+end&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;add about.html.erb file under home directory&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h4&gt;Outline of Ruby Study&lt;/h4&gt;
+
+&lt;p&gt;P1. Introduction and configuration of Ruby on Rails&lt;/p&gt;
+
+&lt;p&gt;P2. Models and Migrations&lt;/p&gt;
+
+&lt;p&gt;P3. Action Mailer and Active Job&lt;/p&gt;
+
+&lt;p&gt;P4. Basics of the Asset PipelineP&lt;/p&gt;
+
+&lt;p&gt;P5. Deployment&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 May 2015 00:00:00 -0400</pubDate>
+        <link>/2015/05/06/ruby-on-rails-p1.html</link>
+        <guid isPermaLink="true">/2015/05/06/ruby-on-rails-p1.html</guid>
+        
+        <category>RoR</category>
+        
+        <category>intro</category>
+        
+        <category>configuration</category>
         
         
       </item>
     
       <item>
         <title>Rdicount Markdown Syntax</title>
-        <description>&lt;h4 id=&quot;escape&quot;&gt;Escape&lt;/h4&gt;
+        <description>&lt;h4&gt;Escape&lt;/h4&gt;
+
 &lt;p&gt;Escape: \&lt;/p&gt;
 
-&lt;h4 id=&quot;headers&quot;&gt;Headers&lt;/h4&gt;
+&lt;h4&gt;Headers&lt;/h4&gt;
+
 &lt;p&gt;# This is an H1 #&lt;/p&gt;
 
 &lt;p&gt;## This is an H2 ##&lt;/p&gt;
 
 &lt;p&gt;### This is an H3 ###&lt;/p&gt;
 
-&lt;h3 id=&quot;emphasis&quot;&gt;Emphasis&lt;/h3&gt;
+&lt;h3&gt;Emphasis&lt;/h3&gt;
+
 &lt;p&gt;Italic *&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Italic with star&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Bolded **&lt;/p&gt;
 
-&lt;p&gt;** Bolded **&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Bolded &lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;block-quotes&quot;&gt;Block Quotes&lt;/h4&gt;
-&lt;p&gt;&amp;gt; block quote&lt;/p&gt;
+&lt;h4&gt;Block Quotes&lt;/h4&gt;
 
-&lt;h4 id=&quot;list&quot;&gt;List&lt;/h4&gt;
-&lt;p&gt;* Item 1&lt;br /&gt;
-  * Item 2&lt;br /&gt;
+&lt;p&gt;&gt; block quote&lt;/p&gt;
+
+&lt;h4&gt;List&lt;/h4&gt;
+
+&lt;p&gt;  * Item 1
+  * Item 2
   * Item 3&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2&lt;/li&gt;
-  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;code-style&quot;&gt;Code Style&lt;/h4&gt;
-&lt;p&gt;`print “Hello World”`&lt;/p&gt;
+
+&lt;h4&gt;Code Style&lt;/h4&gt;
+
+&lt;p&gt;`print &amp;ldquo;Hello World&amp;rdquo;`&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;print &quot;Hello World&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;use [tab]&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;def functionA(a, b):
-	return a + b use {hightlight}+%  {endhighlight}+%		
+    return a + b
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;codeA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;use {hightlight}+%  {endhighlight}+%&lt;/p&gt;
 
-&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;codeA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Links&lt;/h4&gt;
+
 &lt;p&gt;[my link text](https://mzdu.github.io)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://mzdu.github.io&quot;&gt;my link text&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Link Only&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://mzdu.github.io\&quot;&gt;http://mzdu.github.io\&lt;/a&gt; &lt;a href=&quot;http://mzdu.github.io&quot;&gt;http://mzdu.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;http://mzdu.github.io&gt; &lt;a href=&quot;http://mzdu.github.io&quot;&gt;http://mzdu.github.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;images&quot;&gt;Images&lt;/h4&gt;
+&lt;h4&gt;Images&lt;/h4&gt;
+
 &lt;p&gt;![My image link text](https://avatars1.githubusercontent.com/u/1903316?v=3&amp;amp;s=460 =150x50)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/1903316?v=3&amp;amp;s=460 =150x50&quot; alt=&quot;My image link text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/1903316?v=3&amp;amp;s=460&quot; height=&quot;50&quot; width=&quot;150&quot; alt=&quot;My image link text&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;centering&quot;&gt;Centering&lt;/h4&gt;
-&lt;p&gt;-&amp;gt; this will be centered &amp;lt;-&lt;/p&gt;
+&lt;h4&gt;Centering&lt;/h4&gt;
 
-&lt;p&gt;-&amp;gt; this will be centered &amp;lt;-&lt;/p&gt;
+&lt;p&gt;-&gt; this will be centered &amp;lt;-&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center;&quot;&gt; this will be centered&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;discount syntax &lt;a href=&quot;http://tedwise.com/markdown/&quot;&gt;http://tedwise.com/markdown/&lt;/a&gt;&lt;/p&gt;
-
 </description>
         <pubDate>Mon, 04 May 2015 00:00:00 -0400</pubDate>
         <link>/2015/05/04/rdiscount-syntax.html</link>
@@ -111,14 +347,16 @@
       <item>
         <title>MacOS Questions and Answers Collection</title>
         <description>&lt;ol&gt;
-  &lt;li&gt;Permissions: Why do I always have to type ‘sudo’ before every command?&lt;/li&gt;
+&lt;li&gt;Permissions: Why do I always have to type &amp;lsquo;sudo&amp;rsquo; before every command?&lt;/li&gt;
 &lt;/ol&gt;
+
 
 &lt;p&gt;Use sudo su or sudo -i to get an interactive root shell.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Launch Sublime Text 2 from the Mac OS X Terminal&lt;/li&gt;
+&lt;li&gt;Launch Sublime Text 2 from the Mac OS X Terminal&lt;/li&gt;
 &lt;/ol&gt;
+
 
 &lt;p&gt;https://gist.github.com/artero/1236170&lt;/p&gt;
 </description>
@@ -141,7 +379,7 @@
 
 &lt;p&gt;/usr/local/google_appengine&lt;/p&gt;
 
-&lt;p&gt;that’s a symlink that links to the SDK.&lt;/p&gt;
+&lt;p&gt;that&amp;rsquo;s a symlink that links to the SDK.&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 May 2015 00:00:00 -0400</pubDate>
         <link>/2015/05/02/google-app-engine-sdk-path.html</link>
@@ -159,106 +397,111 @@
       <item>
         <title>Build a Site with Github and Jekyll</title>
         <description>&lt;ol&gt;
-  &lt;li&gt;Introduction&lt;br /&gt;
-Intro&lt;br /&gt;
-About Jekyll&lt;br /&gt;
-Steps:&lt;br /&gt;
-install jekyll locally&lt;br /&gt;
-launch the server locally&lt;br /&gt;
+&lt;li&gt;Introduction
+Intro
+About Jekyll
+Steps:
+install jekyll locally
+launch the server locally
 after editing your stuff, upload it to the github&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;2.What We are building&lt;br /&gt;
-Example, News from London&lt;br /&gt;
+
+&lt;p&gt;2.What We are building
+Example, News from London
 with Title, content, page&lt;/p&gt;
 
-&lt;p&gt;click and check the detail of article, with news archive&lt;br /&gt;
+&lt;p&gt;click and check the detail of article, with news archive
 with RSS feedsite&lt;/p&gt;
 
-&lt;p&gt;3.Installing Jekyll&lt;br /&gt;
-requirements:&lt;br /&gt;
-1.ruby&lt;br /&gt;
-2.ruby gems, is a packaging system for ruby.&lt;br /&gt;
+&lt;p&gt;3.Installing Jekyll
+requirements:
+1.ruby
+2.ruby gems, is a packaging system for ruby.
 3. Unix, Linux, OS&lt;/p&gt;
 
-&lt;p&gt;install jekyll &lt;br /&gt;
-&amp;gt; sudo gem install jekyll&lt;br /&gt;
-&amp;gt; sudo gem install rdiscount     (for markdown package)&lt;/p&gt;
+&lt;p&gt;install jekyll&lt;/p&gt;
 
-&lt;p&gt;4.How Jekyll Works&lt;br /&gt;
-yaml configuration&lt;br /&gt;
+&lt;blockquote&gt;&lt;p&gt;sudo gem install jekyll
+sudo gem install rdiscount     (for markdown package)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;4.How Jekyll Works
+yaml configuration
 _config.yml&lt;/p&gt;
 
 &lt;p&gt;pretty much like angularJS or any other modern front-end templates&lt;/p&gt;
 
-&lt;p&gt;5.Configuring the site&lt;br /&gt;
+&lt;p&gt;5.Configuring the site
 create a new project for jekyll&lt;/p&gt;
 
-&lt;p&gt;create a new site&lt;br /&gt;
-&amp;gt; jekyll new myJsite            which creates a site template&lt;/p&gt;
+&lt;p&gt;create a new site&lt;/p&gt;
 
-&lt;p&gt;start the local server&lt;br /&gt;
-&amp;gt; jekyll serve                       starts the template, which enables jekyll to translate the variables in static html page to the final static html page.&lt;br /&gt;
-running on http://127.0.0.1:4000/&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;jekyll new myJsite            which creates a site template&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;start the local server&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;jekyll serve                       starts the template, which enables jekyll to translate the variables in static html page to the final static html page.
+running on http://127.0.0.1:4000/&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;download the code from mijingo.com/code&lt;/p&gt;
 
-&lt;p&gt;File Directory&lt;br /&gt;
-_site&lt;br /&gt;
-_posts     where posts are&lt;/p&gt;
+&lt;p&gt;File Directory
+&lt;em&gt;site
+&lt;/em&gt;posts     where posts are&lt;/p&gt;
 
 &lt;p&gt;_config.yml&lt;/p&gt;
 
-&lt;p&gt;=================&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;layout: post&lt;br /&gt;
-title: Henry’s Statement&lt;br /&gt;
+&lt;p&gt;layout: post
+title: Henry&amp;rsquo;s Statement
 date: September 20, 1880&lt;/p&gt;
 
-&lt;p&gt;— three dashes means the yaml content&lt;/p&gt;
+&lt;p&gt;&amp;mdash; three dashes means the yaml content&lt;/p&gt;
 
-&lt;p&gt;What is a YAML file?&lt;br /&gt;
-Human-friendly data serialization standard&lt;br /&gt;
-popular with Python and Ruby on Rails project&lt;br /&gt;
-with &lt;br /&gt;
+&lt;p&gt;What is a YAML file?
+Human-friendly data serialization standard
+popular with Python and Ruby on Rails project
+with
 key: value format&lt;/p&gt;
 
 &lt;p&gt;yaml.org  to check specificaitons&lt;/p&gt;
 
-&lt;p&gt;// Site settings&lt;br /&gt;
-title: “My Site”&lt;br /&gt;
-email: daniel_pub@hotmail.com&lt;br /&gt;
-description: “A memory storage.”&lt;br /&gt;
-baseurl: “” # the subpath of your site, e.g. /blog/&lt;br /&gt;
-url: “http://localhost:4000” # the base hostname &amp;amp; protocol for your site&lt;br /&gt;
+&lt;p&gt;// Site settings
+title: &amp;ldquo;My Site&amp;rdquo;
+email: daniel_pub@hotmail.com
+description: &amp;ldquo;A memory storage.&amp;rdquo;
+baseurl: &amp;ldquo;&amp;rdquo; # the subpath of your site, e.g. /blog/
+url: &amp;ldquo;http://localhost:4000&amp;rdquo; # the base hostname &amp;amp; protocol for your site
 github_username:  mzdu&lt;/p&gt;
 
-&lt;p&gt;// Build settings&lt;br /&gt;
-markdown: rdiscount&lt;br /&gt;
-rdiscount: &lt;br /&gt;
-	extensions: [smart]&lt;br /&gt;
+&lt;p&gt;// Build settings
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
 permalink: /articles/:title&lt;/p&gt;
 
-&lt;p&gt;6.Building the templates&lt;br /&gt;
+&lt;p&gt;6.Building the templates
 _layouts&lt;/p&gt;
 
 &lt;p&gt;copy default.html from resource&lt;/p&gt;
 
-&lt;p&gt;learning liquid&lt;br /&gt;
+&lt;p&gt;learning liquid
 like google app engine&lt;/p&gt;
 
 &lt;p&gt;Building the Homepage&lt;/p&gt;
 
-&lt;p&gt;7.Deploying to Github Pages&lt;br /&gt;
-sftp&lt;br /&gt;
-via git&lt;br /&gt;
-beanstalk&lt;br /&gt;
+&lt;p&gt;7.Deploying to Github Pages
+sftp
+via git
+beanstalk
 and so on&lt;/p&gt;
 
 &lt;p&gt;on Github&lt;/p&gt;
 
-&lt;p&gt;In order to run the complete template&lt;br /&gt;
-&amp;gt; run jekyll serve –baseurl ‘’&lt;/p&gt;
+&lt;p&gt;In order to run the complete template&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;run jekyll serve &amp;ndash;baseurl ‘’&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 02 May 2015 00:00:00 -0400</pubDate>
         <link>/2015/05/02/build-a-site-with-github-and-jekyll.html</link>
@@ -273,12 +516,10 @@ and so on&lt;/p&gt;
     
       <item>
         <title>How to Start Jekyll Service</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;jekyll serve  &lt;br /&gt;
-or&lt;br /&gt;
-If you will change your _config.yml file&lt;br /&gt;
-jekyll serve –watch&lt;/p&gt;
-&lt;/blockquote&gt;
+        <description>&lt;blockquote&gt;&lt;p&gt;jekyll serve&lt;br/&gt;
+or
+If you will change your _config.yml file
+jekyll serve &amp;ndash;watch&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/quickstart/&quot;&gt;Jekyll site&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -293,8 +534,10 @@ jekyll serve –watch&lt;/p&gt;
     
       <item>
         <title>Defalut Layout</title>
-        <description>&lt;p&gt;This is a post with default layout.&lt;/p&gt;
+        <description>&lt;p&gt;List:
+Github, how to contribute to open source, folk, branches, merge?&lt;/p&gt;
 
+&lt;p&gt;Java Tutorial Basic&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Apr 2015 00:00:00 -0400</pubDate>
         <link>/2015/04/29/default-layout.html</link>
