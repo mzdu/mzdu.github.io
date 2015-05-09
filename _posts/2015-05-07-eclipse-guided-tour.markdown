@@ -1,24 +1,16 @@
 ---
 layout: post
-title: "Eclipse Guided Tour"
-tags: eclipse guide
-date: May 7, 2015
+title: "Columbia Incubator Debris"
+tags: terminal 
+date: May 9, 2015
 ---
-#### Getting Started
-da
-#### Getting Started
-dd
-#### Getting Started
-da
+#### How to add the read write permissions recursively?
+1. identify your role
+> whoami
+> id
 
-`print "Hello Kitty"`
+2. add permissions for that user
+> sudo chown -R mzdu:staff ~/Workspace
 
-	def hello():
-		print "hello world"
-		
-		a, b = 0, 0
-		if a == b:
-			return True
-		
-		else:
-			return False
+add read and write permissions
+>chmod -R ug+rw foldername
