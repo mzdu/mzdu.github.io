@@ -105,6 +105,7 @@ Let's try to figure out how this /api/test works.
 
 5. Use findOneAndUpdate to update the user profile.
 <code>
+
 	exports.updateProfile = function(req, res){
 		
 		var query = req.params.userID;
@@ -121,6 +122,7 @@ Let's try to figure out how this /api/test works.
 			}
 		});
 	};
+	
 </code>
 
 6. res.send(500, err); must be added.
@@ -134,6 +136,7 @@ req.body.user_name finds out the value from the json package.
 
 ### Signin error
 <code>
+
 exports.Login = function(req, res){
 	userName = req.body.user_name;	
 	
@@ -153,7 +156,10 @@ exports.Login = function(req, res){
     		}
 
     	}
+    	
 </code>
+
+######if(data != null && data.password == userPass){}
 
 Mongoose api doc
 
