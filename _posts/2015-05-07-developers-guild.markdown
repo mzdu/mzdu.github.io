@@ -6,12 +6,7 @@ date: May 7, 2015
 ---
 #### Introdution of Speakers
 
-Soft Skills:
-Don' t go with COBOL, DB2, .Net Platform
-
-Ruby, Python, Open source tools
-
-Data Scientist: 
+Soft Skills: Ruby, Python, Open source tools. Data Scientist. 
 
 #### MVC
 4 - 5 years experience
