@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Incubator Meeting"
-tags: terminal directory permissions
+tags: terminal permission mongoose restapi
 date: May 9, 2015
 ---
 #### How to add the read write permissions recursively?
