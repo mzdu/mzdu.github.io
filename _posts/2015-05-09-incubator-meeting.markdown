@@ -154,3 +154,7 @@ exports.Login = function(req, res){
 
     	}
 </code>
+
+Mongoose api doc
+
+http://mongoosejs.com/docs/api.html
