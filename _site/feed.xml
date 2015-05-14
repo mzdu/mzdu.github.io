@@ -1,48 +1,792 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mingzhe Du&#39;s Blog</title>
+    <title>Debris Storage</title>
     <description>Memory is not reliable until you write it down.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 May 2015 09:56:31 -0400</pubDate>
-    <lastBuildDate>Sat, 09 May 2015 09:56:31 -0400</lastBuildDate>
+    <pubDate>Thu, 14 May 2015 12:59:40 -0400</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 12:59:40 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Eclipse Guided Tour</title>
-        <description>&lt;h4&gt;Getting Started&lt;/h4&gt;
+        <title>Python Quiz Note</title>
+        <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+print type(1 / 2)&lt;/p&gt;
 
-&lt;p&gt;da&lt;/p&gt;
+&lt;p&gt;type &amp;lsquo;int&amp;rsquo;  version 2&lt;/p&gt;
 
-&lt;h4&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;type &amp;lsquo;float&amp;rsquo; version 3
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ def f(): pass&lt;/p&gt;
 
-&lt;p&gt;dd&lt;/p&gt;
+&lt;p&gt; print type(f())&lt;/p&gt;
 
-&lt;h4&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt; type &amp;lsquo;NoneType&amp;rsquo;
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ def f(): pass&lt;/p&gt;
 
-&lt;p&gt;da&lt;/p&gt;
+&lt;p&gt; print type(f())&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;print &quot;Hello Kitty&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt; type &amp;lsquo;NoneType&amp;rsquo;
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ print type(1J)&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;def hello():
-    print &quot;hello world&quot;
+&lt;p&gt; type &amp;lsquo;complex&amp;rsquo;
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ print type(lambda:None)&lt;/p&gt;
 
-    a, b = 0, 0
-    if a == b:
-        return True
+&lt;p&gt; type &amp;lsquo;function&amp;rsquo;
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ print len([None, None])&lt;/p&gt;
+
+&lt;p&gt; 2
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ // lamda expression == anonymous function&lt;/p&gt;
+
+&lt;p&gt; d = lambda p: p * 2&lt;/p&gt;
+
+&lt;p&gt; t = lambda p: p * 3&lt;/p&gt;
+
+&lt;p&gt; x = 2&lt;/p&gt;
+
+&lt;p&gt; x = d(x)&lt;/p&gt;
+
+&lt;p&gt; x = t(x)&lt;/p&gt;
+
+&lt;p&gt; x = d(x)&lt;/p&gt;
+
+&lt;p&gt; print x&lt;/p&gt;
+
+&lt;p&gt; 24&lt;/p&gt;
+
+&lt;p&gt; // //
+ d = lambda p: p * 2
+ =====&gt;
+ d = function(p){ return p * 2};
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ x = 4.5&lt;/p&gt;
+
+&lt;p&gt; y = 2&lt;/p&gt;
+
+&lt;p&gt; print x // y&lt;/p&gt;
+
+&lt;p&gt; // == floor divide&lt;/p&gt;
+
+&lt;p&gt; 2.0
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ // set
+ nums = set([1,1,2,3,3,3,4])&lt;/p&gt;
+
+&lt;p&gt; print len(nums)    // set elements are unique&lt;/p&gt;
+
+&lt;p&gt; 4&lt;/p&gt;
+
+&lt;p&gt; // nums is a set, only unique values are retained.
+ // More about set&lt;/p&gt;
+
+&lt;p&gt; a = set([1, 2, 3, 4])      //unique letters in a&lt;/p&gt;
+
+&lt;p&gt; b = set([2, 4, 5])&lt;/p&gt;
+
+&lt;p&gt; a - b ==&gt; set([1, 3])&lt;/p&gt;
+
+&lt;p&gt; a | b ==&gt; set([1, 2, 3, 4, 5])&lt;/p&gt;
+
+&lt;p&gt; a &amp;amp; b ==&gt; set([2, 4])&lt;/p&gt;
+
+&lt;p&gt; a ^ b ==&gt; set([1 ,3 ,5])    //letters in a or b but not in both&lt;/p&gt;
+
+&lt;p&gt; // //
+ for element in a:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; print element
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; 1 2 3 4&lt;/p&gt;
+
+&lt;p&gt; print a[0]   // set object does not support indexing&lt;/p&gt;
+
+&lt;p&gt; 1 in a&lt;/p&gt;
+
+&lt;p&gt; True&lt;/p&gt;
+
+&lt;p&gt; &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+ x = True&lt;/p&gt;
+
+&lt;p&gt; y = False&lt;/p&gt;
+
+&lt;p&gt; z = False&lt;/p&gt;
+
+&lt;p&gt; if x or y and z:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; print &quot;yes&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; else:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; print &quot;no&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; // &amp;lsquo;yes&amp;rsquo;, in python, AND is higher precedence than OR
+ &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+If PYTHONPATH is set in the environment, which directories are searched for modules?&lt;/p&gt;
+
+&lt;p&gt;A) PYTHONPATH directory&lt;/p&gt;
+
+&lt;p&gt;B) current directory&lt;/p&gt;
+
+&lt;p&gt;C) home directory&lt;/p&gt;
+
+&lt;p&gt;D) installation dependent default path&lt;/p&gt;
+
+&lt;p&gt;A, B and D
+// First is the current directory, then is the PYTHONPATH directory if set, then is the installation dependent default path.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In python 2.6 or earlier, the code will print error type 1 if accessSecureSystem raises an exception of either AccessError type or SecurityError type
+&lt;code&gt;&lt;/p&gt;
+
+&lt;p&gt;try:
+    accessSecureSystem()&lt;/p&gt;
+
+&lt;p&gt;except AccessError, SecurityError:
+    print &amp;ldquo;error type 1&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;continueWork()&lt;/p&gt;
+
+&lt;p&gt;false // The except statement will only catch exceptions of type AccessError and name the exception object SecurityError. In order to catch both you can use a tuple like this: except (AccessError, SecurityError). Python has been changed in version 3.0 so that the syntax shown in the question will actually catch both types.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+f = None&lt;/p&gt;
+
+&lt;p&gt;for i in range (5):
+    with open(&amp;ldquo;data.txt&amp;rdquo;, &amp;ldquo;w&amp;rdquo;) as f:
+      if i &gt; 2:
+        break&lt;/p&gt;
+
+&lt;p&gt;True // The WITH statement when used with open file guarantees that the file object is closed when the with block exits.
+print f.closed
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+counter = 1&lt;/p&gt;
+
+&lt;p&gt;def doLotsOfStuff():&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;global counter
+
+for i in (1, 2, 3): 
+    counter += 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;doLotsOfStuff()&lt;/p&gt;
+
+&lt;p&gt;print counter&lt;/p&gt;
+
+&lt;p&gt;4 // global
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+print &amp;ldquo;hello&amp;rdquo; &amp;lsquo;world&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;helloworld // cancatenated
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+print &amp;ldquo;\x48\x49!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;HI!   //\x is an escape sequence that means the following 2 digits are a hexadicmal number encoding a character.&lt;/p&gt;
+
+&lt;p&gt;print 0xA + 0xa  //0xA and 0xa are both hexadecimal integer literals representing the decimal value 10. There sum is 20.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+class parent:&lt;/p&gt;
+
+&lt;p&gt;def &lt;strong&gt;init&lt;/strong&gt;(self, param):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;self.v1 = param
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;class child(parent):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def __init__(self, param):
+
+    self.v2 = param
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;obj = child(11)&lt;/p&gt;
+
+&lt;p&gt;print &amp;ldquo;%d %d&amp;rdquo; % (obj.v1, obj.v2)&lt;/p&gt;
+
+&lt;p&gt;Error is generated // AttributeError: child instance has no attribute &amp;lsquo;v1&amp;rsquo;. self.v1 was never created as a variable since the parent &lt;strong&gt;init&lt;/strong&gt; was not explicitly called.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+values = [1, 2, 1, 3]&lt;/p&gt;
+
+&lt;p&gt;nums = set(values)&lt;/p&gt;
+
+&lt;p&gt;def checkit(num):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if num in nums:
+
+    return True
+
+else:
+
+    return False
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;for i in  filter(checkit, values):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print i
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;1 2 1 3
+//The filter will return all items from the list values which return True when passed to the function checkit. checkit will check if the value is in the set. Since all the numbers in the set come from the values list, all of the orignal values in the list will return True.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+values = [2, 3, 2, 4]&lt;/p&gt;
+
+&lt;p&gt;def my_transformation(num):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;return num ** 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;for i in  map(my_transformation, values):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print i
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;4 9 4 16
+// map will call the function for each value in the list. The ** operator in the function raises the parameter to the power of 2.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+import pickle&lt;/p&gt;
+
+&lt;p&gt;class account:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def __init__(self, id, balance):
+
+    self.id = id
+
+    self.balance = balance
+
+def deposit(self, amount):
+
+    self.balance += amount
+
+def withdraw(self, amount):
+
+    self.balance -= amount
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;myac = account(&amp;lsquo;123&amp;rsquo;, 100)&lt;/p&gt;
+
+&lt;p&gt;myac.deposit(800)&lt;/p&gt;
+
+&lt;p&gt;myac.withdraw(500)&lt;/p&gt;
+
+&lt;p&gt;fd = open( &amp;ldquo;archive&amp;rdquo;, &amp;ldquo;w&amp;rdquo; )&lt;/p&gt;
+
+&lt;p&gt;pickle.dump( myac, fd)&lt;/p&gt;
+
+&lt;p&gt;fd.close()&lt;/p&gt;
+
+&lt;p&gt;myac.deposit(200)&lt;/p&gt;
+
+&lt;p&gt;print myac.balance&lt;/p&gt;
+
+&lt;p&gt;fd = open( &amp;ldquo;archive&amp;rdquo;, &amp;ldquo;r&amp;rdquo; )&lt;/p&gt;
+
+&lt;p&gt;myac = pickle.load( fd )&lt;/p&gt;
+
+&lt;p&gt;fd.close()&lt;/p&gt;
+
+&lt;p&gt;print myac.balance&lt;/p&gt;
+
+&lt;p&gt;600 400  // pickle
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+class Person:
+    def &lt;strong&gt;init&lt;/strong&gt;(self, id):
+        self.id = id&lt;/p&gt;
+
+&lt;p&gt;obama = Person(100)&lt;/p&gt;
+
+&lt;p&gt;obama.&lt;strong&gt;dict&lt;/strong&gt;[&amp;lsquo;age&amp;rsquo;] = 49&lt;/p&gt;
+
+&lt;p&gt;print obama.age + len(obama.&lt;strong&gt;dict&lt;/strong&gt;)&lt;/p&gt;
+
+&lt;p&gt;51&lt;/p&gt;
+
+&lt;p&gt;We have created a member variable named &amp;lsquo;age&amp;rsquo; by adding it directly the objects dictionary. The value of &amp;lsquo;age&amp;rsquo; is initialized to 49. There are 2 items in the dictionary, &amp;lsquo;age&amp;rsquo; and &amp;lsquo;id&amp;rsquo;, therefore the sum of the &amp;lsquo;age&amp;rsquo; value 49 and then size of the dictionary, 2 items, is 51.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+sys.path.append(&amp;lsquo;/root/mods&amp;rsquo;)&lt;/p&gt;
+
+&lt;p&gt;Adds a new directory to search for python modules that are imported.&lt;/p&gt;
+
+&lt;p&gt;The list sys.path contains, in order, all the directories to be searched when trying to load a module
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+import re&lt;/p&gt;
+
+&lt;p&gt;sum = 0&lt;/p&gt;
+
+&lt;p&gt;pattern = &amp;lsquo;back&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;if re.match(pattern, &amp;lsquo;backup.txt&amp;rsquo;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sum += 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if re.match(pattern, &amp;lsquo;text.back&amp;rsquo;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sum += 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if re.search(pattern, &amp;lsquo;backup.txt&amp;rsquo;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sum += 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if re.search(pattern, &amp;lsquo;text.back&amp;rsquo;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sum += 8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;print sum&lt;/p&gt;
+
+&lt;p&gt;13, search will see if the pattern exists anywhere in the string, while match will only check if the pattern exists in the beginning of the string.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assuming the filename for the code below is /usr/lib/python/person.py and the program is run as:
+python /usr/lib/python/person.py&lt;/p&gt;
+
+&lt;p&gt;  What gets printed?&lt;/p&gt;
+
+&lt;p&gt;  &lt;code&gt;
+  class Person:&lt;/p&gt;
+
+&lt;p&gt;  def &lt;strong&gt;init&lt;/strong&gt;(self):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  pass
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  def getAge(self):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  print __name__
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  p = Person()&lt;/p&gt;
+
+&lt;p&gt;  p.getAge()
+  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;  __main__&lt;/p&gt;
+
+&lt;p&gt;  If the module where the reference to _&lt;em&gt;name_&lt;/em&gt; is made has been imported from another file, then the module name will be in the variable in the form of the filename without the path or file extension. If the code is being run NOT as the result of an import, the variable will have the special value &amp;ldquo;_&lt;em&gt;main_&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+confusion = {}&lt;/p&gt;
+
+&lt;p&gt;confusion[1] = 1&lt;/p&gt;
+
+&lt;p&gt;confusion[&amp;lsquo;1&amp;rsquo;] = 2&lt;/p&gt;
+
+&lt;p&gt;confusion[1.0] = 4&lt;/p&gt;
+
+&lt;p&gt;sum = 0&lt;/p&gt;
+
+&lt;p&gt;for k in confusion:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sum += confusion[k]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;print sum&lt;/p&gt;
+
+&lt;p&gt;6
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Note from python docs: &amp;ldquo;if two numbers compare equal (such as 1 and 1.0) then they can be used interchangeably to index the same dictionary entry. (Note however, that since computers store floating-point numbers as approximations it is usually unwise to use them as dictionary keys.)&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+list1 = [0, 2, 4]&lt;/p&gt;
+
+&lt;p&gt;list2 = [&amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, &amp;lsquo;c&amp;rsquo;]&lt;/p&gt;
+
+&lt;p&gt;for sth in (list1, list2):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print sth
+
+print sth[0]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;[0, 2, 4]&lt;/p&gt;
+
+&lt;p&gt;[&amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, &amp;lsquo;c&amp;rsquo;]&lt;/p&gt;
+
+&lt;p&gt;0, &amp;lsquo;a&amp;rsquo;
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+names1 = [&amp;lsquo;Amir&amp;rsquo;, &amp;lsquo;Barry&amp;rsquo;, &amp;lsquo;Chales&amp;rsquo;, &amp;lsquo;Dao&amp;rsquo;]&lt;/p&gt;
+
+&lt;p&gt;loc = names1.index(&amp;ldquo;Edward&amp;rdquo;)&lt;/p&gt;
+
+&lt;p&gt;print loc&lt;/p&gt;
+
+&lt;p&gt;// An exception is thrown
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+tuple.append((1, 2, 3))&lt;/p&gt;
+
+&lt;p&gt;tuples are immutable, and do not have append method.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+def dostuff(param1, *param2):
+    print type(param2)&lt;/p&gt;
+
+&lt;p&gt;dostuff(&amp;lsquo;apples&amp;rsquo;, &amp;lsquo;bananas&amp;rsquo;, &amp;lsquo;cherry&amp;rsquo;, &amp;lsquo;dates&amp;rsquo;)&lt;/p&gt;
+
+&lt;p&gt;tuple
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+def myfunc(x, y, z, a):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print x + y
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;nums = [1, 2, 3, 4]&lt;/p&gt;
+
+&lt;p&gt;myfunc(*nums)&lt;/p&gt;
+
+&lt;p&gt;3, *nums will unpack the list into individual elements to be passed to the function.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How do you create a package so that the following reference will work?&lt;/p&gt;
+
+&lt;p&gt;In order to create a package create a directory for the package name and then put an &lt;strong&gt;init&lt;/strong&gt;.py file in te directory.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+class A:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def __init__(self, a, b, c):
+
+    self.x = a + b + c
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;a = A(1,2,3)&lt;/p&gt;
+
+&lt;p&gt;b = getattr(a, &amp;lsquo;x&amp;rsquo;)&lt;/p&gt;
+
+&lt;p&gt;setattr(a, &amp;lsquo;x&amp;rsquo;, b+1)&lt;/p&gt;
+
+&lt;p&gt;print a.x&lt;/p&gt;
+
+&lt;p&gt;7, getattr can be used to get the value of a member variable of an object. setattr can be used to set it.
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;cmp returns a value less than 0 if x is less than y; cmp returns 0 if x equals y; cmp returns a value greater than 0 if x is greater than y.&lt;/p&gt;
+
+&lt;p&gt;x, y = 0, 1&lt;/p&gt;
+
+&lt;p&gt;cmp(x, y) ==&gt; -1&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+sum(iterable[, start])
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;list dict =&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+dict.copy()  VS  dict.deppcopy()&lt;/p&gt;
+
+&lt;p&gt;dict2 = dict1.copy()&lt;/p&gt;
+
+&lt;p&gt;dict1[1] = 100&lt;/p&gt;
+
+&lt;p&gt;print dict2[1]&lt;/p&gt;
+
+&lt;p&gt;100
+// // // //
+import copy&lt;/p&gt;
+
+&lt;p&gt;dict3 = copy.deepcopy(dict1)&lt;/p&gt;
+
+&lt;p&gt;dict1[1] = 100&lt;/p&gt;
+
+&lt;p&gt;dict3[1]&lt;/p&gt;
+
+&lt;p&gt;old value
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or dict3 = dict(dict1)&lt;/p&gt;
+
+&lt;p&gt;//created a new dictionary&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;
+kvps = { &amp;lsquo;1&amp;rsquo; : 1, &amp;lsquo;2&amp;rsquo; : 2 , &amp;lsquo;3&amp;rsquo; : 3, &amp;lsquo;4&amp;rsquo; : 4, &amp;lsquo;5&amp;rsquo; : 5}&lt;/p&gt;
+
+&lt;p&gt;newData = { &amp;lsquo;1&amp;rsquo; : 10, &amp;lsquo;3&amp;rsquo; : 30 }&lt;/p&gt;
+
+&lt;p&gt;kvps.update(newData)&lt;/p&gt;
+
+&lt;p&gt;x = sum(kvps.values())&lt;/p&gt;
+
+&lt;p&gt;print x&lt;/p&gt;
+
+&lt;p&gt;51 // update() // sum()
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Thu, 14 May 2015 00:00:00 -0400</pubDate>
+        <link>/2015/05/14/python-quiz.html</link>
+        <guid isPermaLink="true">/2015/05/14/python-quiz.html</guid>
+        
+        <category>python</category>
+        
+        <category>edx</category>
+        
+        <category>quiz</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>May stuff</title>
+        <description>&lt;h4&gt;Array&lt;/h4&gt;
+
+&lt;p&gt;def twoSumII(nums, target):
+    # nums is a sorted list&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;lenOfNums = len(nums)
+index1, index2 = 0, 0
+for i in range(lenOfNums):
+    index2 = lenOfNums - i - 1
+
+    if nums[index2] + nums[index1] &amp;lt;= target:
+        break
+
+# print index1, index2    
+# get the value of index1 and index2
+for index1 in range(index2 + 1):
+    if nums[index1] + nums[index2] == target:
+        print &#39;found, and the result is:&#39;
+        return index1, index2
 
     else:
-        return False
+        print &#39;not found&#39;
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;nums = [2,3,4,5,7,9,11]
+target = 11&lt;/p&gt;
+
+&lt;p&gt;print twoSumII(nums, target)&lt;/p&gt;
+
+&lt;h4&gt;Alfred2&lt;/h4&gt;
 </description>
-        <pubDate>Thu, 07 May 2015 00:00:00 -0400</pubDate>
-        <link>/2015/05/07/eclipse-guided-tour.html</link>
-        <guid isPermaLink="true">/2015/05/07/eclipse-guided-tour.html</guid>
+        <pubDate>Mon, 11 May 2015 00:00:00 -0400</pubDate>
+        <link>/2015/05/11/may-stuff.html</link>
+        <guid isPermaLink="true">/2015/05/11/may-stuff.html</guid>
         
-        <category>eclipse</category>
+        <category>python</category>
         
-        <category>guide</category>
+        <category>algorithm</category>
+        
+        <category>leetcode</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Incubator Meeting</title>
+        <description>&lt;h4&gt;How to add the read write permissions recursively?&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;identify yourself&lt;/p&gt;
+
+&lt;p&gt; &gt;whoami&lt;/p&gt;
+
+&lt;p&gt; &gt;id&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;add permissions for usera&lt;/p&gt;
+
+&lt;p&gt; &gt; sudo chown -R usera:staff ~/Workspace&lt;/p&gt;
+
+&lt;p&gt; &gt; sudo chown -R usera:staff /Users/usera&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;add read and write permissions&lt;/p&gt;
+
+&lt;p&gt; &gt;chmod -R ug+rw foldername&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h4&gt;developing related&lt;/h4&gt;
+
+&lt;p&gt;nodemon&lt;/p&gt;
+
+&lt;p&gt;http://localhost:8080/api/test  response a json object success.&lt;/p&gt;
+
+&lt;p&gt;http://www.evernote.com/l/AZL97NJX1lhNp5y2mfWrTYAQa2AugmPGmvM/&lt;/p&gt;
+
+&lt;h4&gt;When you create a new API, you need to:&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a new model file if it doesn’t already exist.&lt;/li&gt;
+&lt;li&gt;Add a new controller for the model or update the existing one with the needed functions.&lt;/li&gt;
+&lt;li&gt;Bind the controller method to the URL you want the API to be consumed from in routes.js&lt;/li&gt;
+&lt;li&gt;Test the endpoint by using Postman or Advanced Rest Client at the URl you specified. For this, you will need to go to terminal at the CharaSparkAPI folder and run ‘nodemon server’. If you don’t have nodemon, you can install it by running ‘sudo npm install -g nodemon’.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;sbulime: dbclick and use cmd + d to select multiple cursors&lt;/p&gt;
+
+&lt;h4&gt;developing note&lt;/h4&gt;
+
+&lt;h5&gt;Target:&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;Signup
+Post: /api/signup
+creates the user
+
+Update
+PUT: /api/user/:userID
+updates the user
+
+Get
+GET: /api/user/:userID
+gets a specific user
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;rsquo;s try to figure out how this /api/test works.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;routes.js
+server.get(PATH + &amp;lsquo;user/:userID&amp;rsquo;, User.getProfile);&lt;/p&gt;
+
+&lt;p&gt;// this creates a url for the service
+// set a get method for /api/test&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;/models/user.js&lt;/p&gt;
+
+&lt;p&gt;// which is associated with mongoose and mongodb using
+     var UserSchema = new Schema({
+       user_id: {
+             type: String,
+             required: true
+         },
+       email: {
+             type: String,
+             unique: true,
+             required: true,
+         },
+       first_name: String,
+       last_name: String,
+       password: {
+             type: String,
+             required: true,
+         },
+       phone: String,
+       createdDate: {
+         type: Date,
+         default: Date.now
+       }
+     });
+     mongoose.model(&amp;lsquo;User&amp;rsquo;, UserSchema)&lt;/p&gt;
+
+&lt;p&gt;UserSchema defines the structure of User table.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;/controllers/user.js   create the function to handle the url request&lt;/p&gt;
+
+&lt;p&gt; &lt;code&gt;
+ exports.getProfile = function(req, res){
+     User.find({},function(err, results) {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     return res.send(results);
+
+   });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lesson learned, always check your models schema&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use findOneAndUpdate to update the user profile.
+&lt;code&gt;&lt;/p&gt;
+
+&lt;p&gt;  exports.updateProfile = function(req, res){&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var query = req.params.userID;
+  var update = req.body;
+
+  User.findOneAndUpdate(query, update, function(err, data){
+      if(err){
+          console.log(&#39;err is:&#39;, err);
+          return next(err);
+      }
+      else{
+          console.log(&#39;updated&#39;);
+          return res.send(201, data);
+      }
+  });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  };&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;res.send(500, err); must be added.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;bkraider  test&lt;/p&gt;
+
+&lt;h3&gt;req.params  VS req.body&lt;/h3&gt;
+
+&lt;p&gt;req.params.user_name accepts the value from variables.&lt;/p&gt;
+
+&lt;p&gt;req.body.user_name finds out the value from the json package.&lt;/p&gt;
+
+&lt;h3&gt;Signin error&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;/p&gt;
+
+&lt;p&gt;exports.Login = function(req, res){
+    userName = req.body.user_name;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;User.findOne({user_name:userName}, function(err, data){
+
+    if(err){
+        console.log(&#39;err is: &#39;, err);
+        return res.send(err);
+    }
+    else {
+        userPass = req.body.password;
+        if(data != null &amp;amp;&amp;amp; data.password == userPass){
+            return res.send(200, {result: &#39;true&#39;});
+        }
+        else{
+            return res.send(200, {result: &#39;false&#39;});
+        }
+
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h6&gt;if(data != null &amp;amp;&amp;amp; data.password == userPass){}&lt;/h6&gt;
+
+&lt;p&gt;Mongoose api doc&lt;/p&gt;
+
+&lt;p&gt;http://mongoosejs.com/docs/api.html&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 May 2015 00:00:00 -0400</pubDate>
+        <link>/2015/05/09/incubator-meeting.html</link>
+        <guid isPermaLink="true">/2015/05/09/incubator-meeting.html</guid>
+        
+        <category>terminal</category>
+        
+        <category>permission</category>
+        
+        <category>mongoose</category>
+        
+        <category>restapi</category>
         
         
       </item>
@@ -51,12 +795,7 @@
         <title>Developers Guild Meetup</title>
         <description>&lt;h4&gt;Introdution of Speakers&lt;/h4&gt;
 
-&lt;p&gt;Soft Skills:
-Don&#39; t go with COBOL, DB2, .Net Platform&lt;/p&gt;
-
-&lt;p&gt;Ruby, Python, Open source tools&lt;/p&gt;
-
-&lt;p&gt;Data Scientist:&lt;/p&gt;
+&lt;p&gt;Soft Skills: Ruby, Python, Open source tools. Data Scientist.&lt;/p&gt;
 
 &lt;h4&gt;MVC&lt;/h4&gt;
 
@@ -528,22 +1267,6 @@ jekyll serve &amp;ndash;watch&lt;/p&gt;&lt;/blockquote&gt;
         <guid isPermaLink="true">/2015/05/01/how-to-start-jekyll-service.html</guid>
         
         <category>jekyll</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Defalut Layout</title>
-        <description>&lt;p&gt;List:
-Github, how to contribute to open source, folk, branches, merge?&lt;/p&gt;
-
-&lt;p&gt;Java Tutorial Basic&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Apr 2015 00:00:00 -0400</pubDate>
-        <link>/2015/04/29/default-layout.html</link>
-        <guid isPermaLink="true">/2015/04/29/default-layout.html</guid>
-        
-        <category>none</category>
         
         
       </item>
