@@ -33,6 +33,34 @@ target = 11
 
 print twoSumII(nums, target)
 
-#### Alfred2
+#### Big Data and PySpark
 
-            
+https://goo.gl/JQIqU6
+
+Apache Spark + Hadoop HDFS
+
+Spark == Processing Layer
+
+Hadoop == Storage Layer
+
+##### Example
+<code>
+	flu_stories = news_json.map(lambda x: x['fulltext']).filter(lambda x: " flu " in x)
+	flu_stories.cache()
+	print '# of flu stories', flu_stories.count()
+
+
+	word_count = flu_stories,flatMap(lambda x: x.split()).map(lambda x: (x,1)).reduceByKey(lambda x,y: x+y)
+	word_count = word_count.sortBy(lambda x:x[1], ascending=False)
+	word_count.take(10)
+</code>
+
+map()
+filter()
+
+
+
+
+
+
+
