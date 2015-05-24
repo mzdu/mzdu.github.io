@@ -14,6 +14,7 @@ Wish References User Model
 <code>
 	//Find all donations from one user
 	exports.findDonationsFromUser = function(req, res){
+	
 	  Donation
 	  .find({_donor: req.params.userID})
 	  .populate('_donor', 'user_name')
@@ -21,7 +22,9 @@ Wish References User Model
 	  .exec(function(err, results) {
 	    if(err){
 	      console.log(err);
-	    }else{
+	    }
+	    
+	     selse{
 	      return res.send(results);
 	    }
   });
